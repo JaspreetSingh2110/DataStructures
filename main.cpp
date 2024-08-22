@@ -3,6 +3,22 @@
 
 #include "Common/Utils.h"
 #include "SortingTechniques/SortingTechniques.h"
+#include "LinearDS/Stack.h"
+#include "LinearDS/Queue.h"
+
+
+void TestLinearDS() {
+  std::cout << "Testing data structures implementation!" << std::endl;
+
+  std::cout << "Testing 'Stack' implementation!" << std::endl;
+  TestStack();
+
+  std::cout << "Testing 'Queue' implementation!" << std::endl;
+  TestQueue();
+
+  std::cout << "Testing DONE!" << std::endl;
+}
+
 
 void TestSortingTechniques()
 {
@@ -50,6 +66,7 @@ void TestSortingTechniques()
 int main()
 {
   TestSortingTechniques();
+  TestLinearDS();
   return 0;
 }
 

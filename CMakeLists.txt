@@ -13,4 +13,8 @@ add_executable(DataStructures main.cpp
         SortingTechniques/CountingSort.cpp
         SortingTechniques/MergeSort.cpp
         SortingTechniques/ShellSort.cpp
-        SortingTechniques/QuickSort.cpp)
+        SortingTechniques/QuickSort.cpp
+        LinearDS/Stack.cpp
+        LinearDS/Stack.h
+        LinearDS/Queue.cpp
+        LinearDS/Queue.h)
