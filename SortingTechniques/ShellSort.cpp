@@ -2,6 +2,7 @@
 // Created by Jaspreet Singh on 16/08/24.
 //
 #include <iostream>
+#include <vector>
 
 void ShellSort(std::vector<int> &nums)
 {
