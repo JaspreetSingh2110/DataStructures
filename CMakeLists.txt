@@ -19,4 +19,6 @@ add_executable(DataStructures main.cpp
         LinearDS/Queue.cpp
         LinearDS/Queue.h
         LinearDS/SingleLinkedLists.cpp
-        LinearDS/SingleLinkedLists.h)
+        LinearDS/SingleLinkedLists.h
+        LinearDS/DoubleLinkedList.cpp
+        LinearDS/DoubleLinkedList.h)

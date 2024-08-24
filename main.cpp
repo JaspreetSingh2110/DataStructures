@@ -6,6 +6,7 @@
 #include "LinearDS/Stack.h"
 #include "LinearDS/Queue.h"
 #include "LinearDS/SingleLinkedLists.h"
+#include "LinearDS/DoubleLinkedList.h"
 
 
 void TestLinearDS() {
@@ -19,6 +20,9 @@ void TestLinearDS() {
 
   std::cout << "Testing 'Single LinkedLists' implementation!" << std::endl;
   TestSingleLinkedLists();
+
+  std::cout << "Testing 'Double LinkedLists' implementation!" << std::endl;
+  TestDoubleLinkedLists();
 
   std::cout << "Testing DONE!" << std::endl;
 }
