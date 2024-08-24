@@ -5,6 +5,7 @@
 #include "SortingTechniques/SortingTechniques.h"
 #include "LinearDS/Stack.h"
 #include "LinearDS/Queue.h"
+#include "LinearDS/SingleLinkedLists.h"
 
 
 void TestLinearDS() {
@@ -15,6 +16,9 @@ void TestLinearDS() {
 
   std::cout << "Testing 'Queue' implementation!" << std::endl;
   TestQueue();
+
+  std::cout << "Testing 'Single LinkedLists' implementation!" << std::endl;
+  TestSingleLinkedLists();
 
   std::cout << "Testing DONE!" << std::endl;
 }
