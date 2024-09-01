@@ -21,4 +21,6 @@ add_executable(DataStructures main.cpp
         LinearDS/SingleLinkedLists.cpp
         LinearDS/SingleLinkedLists.h
         LinearDS/DoubleLinkedList.cpp
-        LinearDS/DoubleLinkedList.h)
+        LinearDS/DoubleLinkedList.h
+        SortingTechniques/BucketSort.cpp
+        SortingTechniques/RadixSort.cpp)

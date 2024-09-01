@@ -34,7 +34,10 @@ void TestSortingTechniques()
   std::vector<int> nums2 = {2, 4, 3, 5, 1};
   std::vector<int> nums3 = {3, 4, 2, 5, 1};
   std::vector<int> nums4 = {3, 4, 2, 5, 1, 3, 2};
-  std::vector<std::vector<int>> testVectors = {nums1, nums2, nums3, nums4};
+  std::vector<int> nums5 = {
+    22, 66, 33, 99, 6, 15, 67, 87, 55, 87, 91, 9, 71, 92, 25, 31, 48, 67, 1, 93
+  };
+  std::vector<std::vector<int>> testVectors = {nums1, nums2, nums3, nums4, nums5};
 
   for (auto testVector : testVectors) {
     std::cout << "Test array: " << std::endl;
@@ -65,7 +68,15 @@ void TestSortingTechniques()
     //PrintVector(testVector);
 
     //std::cout << "Testing Quick Sort\n";
-    QuickSort(testVector, 0, testVector.size() -1);
+    //QuickSort(testVector, 0, testVector.size() -1);
+    //PrintVector(testVector);
+
+    //std::cout << "Testing Bucket Sort\n";
+    //BucketSort(testVector);
+    //PrintVector(testVector);
+
+    std::cout << "Testing Radix Sort\n";
+    RadixSort(testVector);
     PrintVector(testVector);
   }
 }

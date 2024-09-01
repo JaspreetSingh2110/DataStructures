@@ -14,5 +14,7 @@ void QuickSort(std::vector<int> &nums, int low, int high);
 
 //Linear sorting techniques.
 void CountingSort(std::vector<int> &nums);
+void BucketSort(std::vector<int> &nums);
+void RadixSort(std::vector<int> &nums);
 
 #endif //SORTINGTECHNIQUES_H
