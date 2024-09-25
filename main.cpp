@@ -8,6 +8,8 @@
 #include "LinearDS/SingleLinkedLists.h"
 #include "LinearDS/DoubleLinkedList.h"
 
+#include "NonLinearDS/Graphs/Graphs.h"
+
 
 void TestLinearDS() {
   std::cout << "Testing data structures implementation!" << std::endl;
@@ -82,10 +84,16 @@ void TestSortingTechniques()
 }
 
 
+void TestNonLinearDS()
+{
+  TestDFS();
+}
+
 int main()
 {
-  TestSortingTechniques();
-  TestLinearDS();
+  //TestSortingTechniques();
+  //TestLinearDS();
+  TestNonLinearDS();
   return 0;
 }
 

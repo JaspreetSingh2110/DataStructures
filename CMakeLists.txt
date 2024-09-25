@@ -23,4 +23,8 @@ add_executable(DataStructures main.cpp
         LinearDS/DoubleLinkedList.cpp
         LinearDS/DoubleLinkedList.h
         SortingTechniques/BucketSort.cpp
-        SortingTechniques/RadixSort.cpp)
+        SortingTechniques/RadixSort.cpp
+        NonLinearDS/Graphs/BreadthFirstSearch.cpp
+        NonLinearDS/Graphs/Graphs.h
+        NonLinearDS/Graphs/Graphs.cpp
+        NonLinearDS/Graphs/DepthFirstSearch.cpp)
