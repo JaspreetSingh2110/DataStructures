@@ -8,13 +8,12 @@ Graph::Graph(int numNodes)
 {
   this->numNodes = numNodes;
   visited = new bool[numNodes];
+  memset(visited, false, sizeof(bool) * numNodes);
 }
 
 Graph::~Graph()
 {
-  if (visited) {
-    delete[] visited;
-  }
+  delete[] visited;
 }
 
 
@@ -23,5 +22,8 @@ void Graph::addEdge(int u, int v)
   if (u >= numNodes || v >= numNodes) {
     return;
   }
+
+  // For undirected graph, node A is neighbour of B and vice versa.
   adjList[u].push_back(v);
+  adjList[v].push_back(u);
 }

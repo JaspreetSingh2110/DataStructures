@@ -22,5 +22,6 @@ public:
 };
 
 void TestDFS();
+void TestBFS();
 
 #endif //GRAPHS_H

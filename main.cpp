@@ -86,7 +86,10 @@ void TestSortingTechniques()
 
 void TestNonLinearDS()
 {
+  std::cout << "Testing Depth first search!!!\n";
   TestDFS();
+  std::cout << "Testing Breadth first search!!!\n";
+  TestBFS();
 }
 
 int main()
