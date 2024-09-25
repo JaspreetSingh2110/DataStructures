@@ -19,9 +19,13 @@ public:
   explicit Graph(int numNodes);
   ~Graph();
   void addEdge(int u, int v);
+
+  int GetNodeCount() const;
+  void ResetVisited() const;
 };
 
 void TestDFS();
 void TestBFS();
+void TestBFSShortestPath();
 
 #endif //GRAPHS_H
