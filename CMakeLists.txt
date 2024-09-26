@@ -28,4 +28,5 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Graphs/Graphs.h
         NonLinearDS/Graphs/Graphs.cpp
         NonLinearDS/Graphs/DepthFirstSearch.cpp
-        NonLinearDS/Graphs/BFS_ShortestPathAlgorithm.cpp)
+        NonLinearDS/Graphs/BFS_ShortestPathAlgorithm.cpp
+        NonLinearDS/Graphs/BFS_ShortestPathOnGrid.cpp)

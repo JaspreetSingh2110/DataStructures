@@ -24,8 +24,11 @@ public:
   void ResetVisited() const;
 };
 
+
+//Test functions from other files.
 void TestDFS();
 void TestBFS();
 void TestBFSShortestPath();
+void Test_BFS_ShortestPathOnGrid();
 
 #endif //GRAPHS_H

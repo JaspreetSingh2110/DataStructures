@@ -88,10 +88,15 @@ void TestNonLinearDS()
 {
   std::cout << "Testing Depth first search!!!\n";
   TestDFS();
+
   std::cout << "Testing Breadth first search!!!\n";
   TestBFS();
+
   std::cout << "Testing BFS shortest path !!!\n";
   TestBFSShortestPath();
+
+  std::cout << "Testing BFS shortest path on Grid!!!\n";
+  Test_BFS_ShortestPathOnGrid();
 }
 
 int main()
