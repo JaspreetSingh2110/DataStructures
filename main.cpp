@@ -97,6 +97,9 @@ void TestNonLinearDS()
 
   std::cout << "Testing BFS shortest path on Grid!!!\n";
   Test_BFS_ShortestPathOnGrid();
+
+  std::cout << "Test topological sort\n";
+  TestTopologicalSortAdjacencyList();
 }
 
 int main()

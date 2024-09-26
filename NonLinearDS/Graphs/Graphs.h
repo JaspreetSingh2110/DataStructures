@@ -7,6 +7,19 @@
 #include <map>
 #include <iostream>
 
+class Edge {
+  public:
+  int to;
+  int weight;
+
+  Edge() {}
+  Edge(int to, int weight)
+  {
+    this->to = to;
+    this->weight = weight;
+  }
+};
+
 class Graph {
   private:
   int numNodes;
@@ -30,5 +43,6 @@ void TestDFS();
 void TestBFS();
 void TestBFSShortestPath();
 void Test_BFS_ShortestPathOnGrid();
+void TestTopologicalSortAdjacencyList();
 
 #endif //GRAPHS_H
