@@ -106,6 +106,9 @@ void TestNonLinearDS()
 
   std::cout << "Test BellmanFord SSSP algorithm\n";
   Test_BellmanFord_SingleSourceShortestPath();
+
+  std::cout << "Test FloydWarshall APSP algorithm\n";
+  Test_FloydWarshall_AllPairShortestPath();
 }
 
 int main()
