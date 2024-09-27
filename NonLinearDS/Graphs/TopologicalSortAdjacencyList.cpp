@@ -8,8 +8,8 @@
 
 class TopologicalSortAdjacencyList {
 public:
-  TopologicalSortAdjacencyList() {}
 
+  // Helper function for graph traversal using depth first search and to update the top sorted array.
   int DFS(std::map<int, std::list<Edge>> &graph, bool *visited, int tsOrder[], int nodeIndex, int orderIndex)
   {
     visited[nodeIndex] = true;
@@ -26,6 +26,7 @@ public:
     return (orderIndex - 1);
   }
 
+  // Main function to perform setup and create top sort array.
   void Sort(std::map<int, std::list<Edge>> &graph, int numNodes, int sortArr[])
   {
     //Create an array to track nodes visit state.
@@ -41,7 +42,8 @@ public:
     }
   }
 
-  void FindSingleSrcShortestPath(std::map<int, std::list<Edge>> &graph, int topSortedArr[], int shortestPath[], int numNodes)
+  // Function to find the shortest path using top sort algorithm.
+  void FindSingleSrcShortestPath(std::map<int, std::list<Edge>> &graph, const int topSortedArr[], int shortestPath[], int numNodes)
   {
     for (int i = 0; i < numNodes; i++) {
       int nodeIndex = topSortedArr[i];
