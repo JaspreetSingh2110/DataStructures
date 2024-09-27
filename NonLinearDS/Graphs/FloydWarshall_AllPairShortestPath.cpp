@@ -10,6 +10,13 @@
 class FloydWarshall_AllPairShortestPath {
 public:
 
+  /* Returns:
+   * a. Empty path:
+   *      when path[i][j] = INFINITY, [No path exists b/w nodes i and j]
+   * b. nullptr:
+   *      when path[i][j] = -1, [Negative cycles present for path b/w nodes i and j]
+   * c. Valid path.
+   */
   std::list<int>* ConstructPath(std::vector<std::vector<double>> &path, std::vector<std::vector<double>> &dp, int src, int dest)
   {
     std::list<int> *fPath = new std::list<int>;
@@ -21,11 +28,13 @@ public:
 
     int i = src;
     for (; i != dest; i = path[i][dest]) {
+      //Negative cycles if i==-1.
       if (i == -1) {
         return nullptr;
       }
       fPath->push_back(i);
     }
+    //Check for negative cycle.
     if (path[i][dest] == -1) {
       return nullptr;
     }
