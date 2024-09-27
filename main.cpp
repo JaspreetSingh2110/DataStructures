@@ -103,6 +103,9 @@ void TestNonLinearDS()
 
   std::cout << "Test Dijkstra SSSP algorithm\n";
   Test_Dijkstra_SingleSourceShortestPath();
+
+  std::cout << "Test BellmanFord SSSP algorithm\n";
+  Test_BellmanFord_SingleSourceShortestPath();
 }
 
 int main()

@@ -32,4 +32,5 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Graphs/BFS_ShortestPathOnGrid.cpp
         NonLinearDS/Graphs/TopologicalSortAdjacencyList.cpp
         NonLinearDS/Graphs/Dijkstra_SingleSourceShortestPath.cpp
+        NonLinearDS/Graphs/BellManFord_SSSP.cpp
 )
