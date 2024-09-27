@@ -100,6 +100,9 @@ void TestNonLinearDS()
 
   std::cout << "Test topological sort\n";
   TestTopologicalSortAdjacencyList();
+
+  std::cout << "Test Dijkstra SSSP algorithm\n";
+  Test_Dijkstra_SingleSourceShortestPath();
 }
 
 int main()

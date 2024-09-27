@@ -44,5 +44,6 @@ void TestBFS();
 void TestBFSShortestPath();
 void Test_BFS_ShortestPathOnGrid();
 void TestTopologicalSortAdjacencyList();
+void Test_Dijkstra_SingleSourceShortestPath();
 
 #endif //GRAPHS_H
