@@ -110,8 +110,11 @@ void TestNonLinearDS()
   std::cout << "Test FloydWarshall APSP algorithm\n";
   Test_FloydWarshall_AllPairShortestPath();
 
-  std::cout << "Test TestEulerianPath\n";
+  std::cout << "Test EulerianPath\n";
   TestEulerianPath();
+
+  std::cout << "\nTest Bridges locator in graph\n";
+  TestBridges();
 }
 
 int main()

@@ -35,4 +35,5 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Graphs/BellManFord_SSSP.cpp
         NonLinearDS/Graphs/FloydWarshall_AllPairShortestPath.cpp
         NonLinearDS/Graphs/EulerianPath.cpp
+        NonLinearDS/Graphs/Bridges.cpp
 )
