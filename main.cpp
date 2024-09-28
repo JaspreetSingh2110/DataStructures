@@ -109,6 +109,9 @@ void TestNonLinearDS()
 
   std::cout << "Test FloydWarshall APSP algorithm\n";
   Test_FloydWarshall_AllPairShortestPath();
+
+  std::cout << "Test TestEulerianPath\n";
+  TestEulerianPath();
 }
 
 int main()
