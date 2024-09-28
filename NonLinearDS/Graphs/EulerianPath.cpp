@@ -119,11 +119,20 @@ class EulerianPath {
   void PrintEulerianPath()
   {
     std::cout << "Eulerian path for given path: ";
+
+    //If no eulerian path, return.
+    if (eulerianPath.empty()) {
+      std::cout << "[DOES NOT EXIST]" << std::endl;
+      return;
+    }
+
+    //Print the eulerian path.
     while (!eulerianPath.empty()) {
       int node = eulerianPath.front();
       eulerianPath.pop_front();
       std::cout << " -> " << node;
     }
+    std::cout << std::endl;
   }
 
   void FindEulerianPath()

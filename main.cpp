@@ -86,35 +86,38 @@ void TestSortingTechniques()
 
 void TestNonLinearDS()
 {
-  std::cout << "Testing Depth first search!!!\n";
+  std::cout << "\nTesting Depth first search!!!\n";
   TestDFS();
 
-  std::cout << "Testing Breadth first search!!!\n";
+  std::cout << "\nTesting Breadth first search!!!\n";
   TestBFS();
 
-  std::cout << "Testing BFS shortest path !!!\n";
+  std::cout << "\nTesting BFS shortest path !!!\n";
   TestBFSShortestPath();
 
-  std::cout << "Testing BFS shortest path on Grid!!!\n";
+  std::cout << "\nTesting BFS shortest path on Grid!!!\n";
   Test_BFS_ShortestPathOnGrid();
 
-  std::cout << "Test topological sort\n";
+  std::cout << "\nTest topological sort\n";
   TestTopologicalSortAdjacencyList();
 
-  std::cout << "Test Dijkstra SSSP algorithm\n";
+  std::cout << "\nTest Dijkstra SSSP algorithm\n";
   Test_Dijkstra_SingleSourceShortestPath();
 
-  std::cout << "Test BellmanFord SSSP algorithm\n";
+  std::cout << "\nTest BellmanFord SSSP algorithm\n";
   Test_BellmanFord_SingleSourceShortestPath();
 
-  std::cout << "Test FloydWarshall APSP algorithm\n";
+  std::cout << "\nTest FloydWarshall APSP algorithm\n";
   Test_FloydWarshall_AllPairShortestPath();
 
-  std::cout << "Test EulerianPath\n";
+  std::cout << "\nTest EulerianPath\n";
   TestEulerianPath();
 
-  std::cout << "\nTest Bridges locator in graph\n";
+  std::cout << "\nTest Bridges locator\n";
   TestBridges();
+
+  std::cout << "\nTest Articulation points\n";
+  TestArticulationPoints();
 }
 
 int main()

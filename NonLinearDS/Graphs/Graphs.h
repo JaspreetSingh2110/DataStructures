@@ -49,5 +49,6 @@ void Test_BellmanFord_SingleSourceShortestPath();
 void Test_FloydWarshall_AllPairShortestPath();
 void TestEulerianPath();
 void TestBridges();
+void TestArticulationPoints();
 
 #endif //GRAPHS_H
