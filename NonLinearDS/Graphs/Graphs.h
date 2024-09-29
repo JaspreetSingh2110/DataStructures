@@ -39,16 +39,26 @@ public:
 
 
 //Test functions from other files.
+//Traversal algorithms.
 void TestDFS();
 void TestBFS();
+
+//Shortest path algorithms.
 void TestBFSShortestPath();
 void Test_BFS_ShortestPathOnGrid();
 void TestTopologicalSortAdjacencyList();
 void Test_Dijkstra_SingleSourceShortestPath();
 void Test_BellmanFord_SingleSourceShortestPath();
 void Test_FloydWarshall_AllPairShortestPath();
+
+//Eulerian path
 void TestEulerianPath();
+
+//Bridges and Articulation points.
 void TestBridges();
 void TestArticulationPoints();
+
+//Minimum spanning tree algorithms.
+void Test_KruskalsMinSpanningTree();
 
 #endif //GRAPHS_H

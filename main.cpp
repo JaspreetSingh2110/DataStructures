@@ -118,6 +118,9 @@ void TestNonLinearDS()
 
   std::cout << "\nTest Articulation points\n";
   TestArticulationPoints();
+
+  std::cout << "\nTest Kruskals MST\n";
+  Test_KruskalsMinSpanningTree();
 }
 
 int main()
