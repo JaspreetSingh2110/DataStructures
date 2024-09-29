@@ -40,4 +40,5 @@ add_executable(DataStructures main.cpp
         UnionFind/UnionFind.cpp
         UnionFind/UnionFind.h
         NonLinearDS/Graphs/KruskalsMinSpanningTree.cpp
+        NonLinearDS/Graphs/PrimsMinSpanningTree_Lazy.cpp
 )

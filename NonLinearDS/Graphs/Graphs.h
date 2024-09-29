@@ -60,5 +60,6 @@ void TestArticulationPoints();
 
 //Minimum spanning tree algorithms.
 void Test_KruskalsMinSpanningTree();
+void Test_PrimsMinSpanningTree_LazySolver();
 
 #endif //GRAPHS_H

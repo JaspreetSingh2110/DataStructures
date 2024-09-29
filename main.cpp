@@ -121,6 +121,9 @@ void TestNonLinearDS()
 
   std::cout << "\nTest Kruskals MST\n";
   Test_KruskalsMinSpanningTree();
+
+  std::cout << "\nTest Prims MST [lazy version]\n";
+  Test_PrimsMinSpanningTree_LazySolver();
 }
 
 int main()
