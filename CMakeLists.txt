@@ -37,4 +37,6 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Graphs/EulerianPath.cpp
         NonLinearDS/Graphs/Bridges.cpp
         NonLinearDS/Graphs/ArticulationPoints.cpp
+        UnionFind/UnionFind.cpp
+        UnionFind/UnionFind.h
 )
