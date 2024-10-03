@@ -127,6 +127,9 @@ void TestNonLinearDS()
 
   std::cout << "\nTest Ford Fulkerson - Network flow - Max flow algorithm\n";
   Test_NF_FordFulkerson();
+
+  std::cout << "\nTest Edmonds Karp - Network flow - Max flow algorithm\n";
+  Test_NF_EdmondsKarp();
 }
 
 int main()

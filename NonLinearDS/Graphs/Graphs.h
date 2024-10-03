@@ -64,5 +64,6 @@ void Test_PrimsMinSpanningTree_LazySolver();
 
 //Network flows
 void Test_NF_FordFulkerson();
+void Test_NF_EdmondsKarp();
 
 #endif //GRAPHS_H

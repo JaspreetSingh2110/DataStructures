@@ -3,14 +3,16 @@
 //
 
 #include <vector>
+#include <cmath>
 #include <iostream>
-#include <math.h>
+#include <queue>
 
-class NF_FordFulkerson {
+class NF_EdmondsKarp {
   public:
 
   class Edge {
     public:
+    Edge() {}
     explicit Edge(int from, int to, int capacity)
     {
       this->from = from;
@@ -37,7 +39,7 @@ class NF_FordFulkerson {
     int from;
     int to;
     int capacity = 0;
-    int flow = 0;
+    double flow = 0;
     Edge *residualEdge = nullptr;
   };
 
@@ -66,7 +68,7 @@ class NF_FordFulkerson {
     VISITED++;
   }
 
-  explicit NF_FordFulkerson(int n, int source, int sink)
+  explicit NF_EdmondsKarp(int n, int source, int sink)
   {
     this->numNodes = n;
     this->source = source;
@@ -81,7 +83,7 @@ class NF_FordFulkerson {
     }
   }
 
-  ~NF_FordFulkerson()
+  ~NF_EdmondsKarp()
   {
     delete[] visited;
     for (int i = 0; i < numNodes; i++) {
@@ -99,46 +101,63 @@ class NF_FordFulkerson {
       MarkAllNodesAsUnvisited();
 
       //Use DFS to find a path from source to sink and get bottleneck value.
-      bottleNeckValue = DFS_GetBottleNeckValue(source, INFINITY);
+      bottleNeckValue = BFS_GetBottleNeckValue();
 
       //Update the max flow using the bottleneck value.
       maxFlow += bottleNeckValue;
     } while(bottleNeckValue != 0);
   }
 
-  int DFS_GetBottleNeckValue(int node, double flow)
+  int BFS_GetBottleNeckValue()
   {
-    //If we have reached the sink node, return the flow value.
-    if (node == sink) {
-      return flow;
+    //Create array for path tracking.
+    Edge **prev = new Edge*[numNodes];
+    for (int i = 0; i < numNodes; i++) {
+      prev[i] = nullptr;
     }
 
-    //Mark this node as visited.
-    visited[node] = VISITED;
+    //Create queue for BFS search.
+    std::queue<int> q;
+    q.push(source);
+    visited[source] = VISITED;
 
-    //Get the neighbor edges of node.
-    for (auto edge : graph[node]) {
-      //If neighbor node is already visited, skip that neighbor
-      if (visited[edge->to] == VISITED) {
-        continue;
+    //Repeat below block till q is not empty.
+    while (!q.empty()) {
+      int node = q.front();
+      q.pop();
+
+      //If sink node is reached, break loop.
+      if (node == sink) {
+        break;
       }
 
-      //If remaining capacity of edge to neighbor node is full, skip it.
-      double remainingCapacity = edge->RemainingCapacity();
-      if (remainingCapacity == 0) {
-        continue;
-      }
-
-      // NOTES for 'std::min(flow, remaingCapacity)'
-      // Bottleneck value is minimum of: current flow (to reach this node) and remaining capacity of edge we are going to next.
-      int bottleNeckValue = DFS_GetBottleNeckValue(edge->to, std::min(flow, remainingCapacity));
-
-      if (bottleNeckValue > 0) {
-        edge->Augment(bottleNeckValue);
-        return bottleNeckValue;
+      for (auto edge : graph[node]) {
+        if ((visited[edge->to] != VISITED) && (edge->RemainingCapacity() > 0)) {
+          visited[edge->to] = VISITED;
+          q.push(edge->to);
+          prev[edge->to] = edge;
+        }
       }
     }
-    return 0;
+
+    //If we are not able to reach sink, no path be found, return 0.
+    if (prev[sink] == nullptr) {
+      return 0;
+    }
+
+    double bottleneckValue = INFINITY;
+    //Iterate over path and find the bottleneck value.
+    for (Edge *edge = prev[sink]; edge != nullptr; edge = prev[edge->from]) {
+      bottleneckValue = std::min(bottleneckValue, (double)edge->RemainingCapacity());
+    }
+
+    //Once bottleneck value is found, augment the path.
+    //Update the flow with augment value.
+    for (Edge *edge = prev[sink]; edge != nullptr; edge = prev[edge->from]) {
+      edge->Augment(bottleneckValue);
+    }
+
+    return bottleneckValue;
   }
 
   int GetMaxFlow()
@@ -156,13 +175,13 @@ class NF_FordFulkerson {
 };
 
 
-void Test_NF_FordFulkerson1()
+void Test_NF_EdmondsKarp1()
 {
   int n = 6;
   int source = n - 2;
   int sink = n - 1;
 
-  NF_FordFulkerson nfFordFulkerson(n, source, sink);
+  NF_EdmondsKarp nfFordFulkerson(n, source, sink);
 
   nfFordFulkerson.AddEdge(source, 0, 10);
   nfFordFulkerson.AddEdge(source, 1, 10);
@@ -177,13 +196,41 @@ void Test_NF_FordFulkerson1()
   std::cout << "Max flow for given graph is: " << nfFordFulkerson.GetMaxFlow() << std::endl;
 }
 
-void Test_NF_FordFulkerson2()
+void Test_NF_EdmondsKarp2()
+{
+  int n = 6;
+  int source = n - 2;
+  int sink = n - 1;
+
+  NF_EdmondsKarp nfFordFulkerson(n, source, sink);
+
+  //Edges from source nodes.
+  nfFordFulkerson.AddEdge(source, 0, 10);
+  nfFordFulkerson.AddEdge(source, 1, 10);
+
+  //Intermediate edges.
+  nfFordFulkerson.AddEdge(0, 1, 2);
+  nfFordFulkerson.AddEdge(0, 2, 4);
+  nfFordFulkerson.AddEdge(0, 3, 8);
+  nfFordFulkerson.AddEdge(1, 3, 9);
+  nfFordFulkerson.AddEdge(3, 2, 6);
+
+  //Edges to sink.
+  nfFordFulkerson.AddEdge(2, sink, 10);
+  nfFordFulkerson.AddEdge(3, sink, 10);
+
+  //Solve
+  nfFordFulkerson.Solve();
+  std::cout << "Max flow for given graph is: " << nfFordFulkerson.GetMaxFlow() << std::endl;
+}
+
+void Test_NF_EdmondsKarp3()
 {
   int n = 12;
   int source = n - 2;
   int sink = n - 1;
 
-  NF_FordFulkerson nfFordFulkerson(n, source, sink);
+  NF_EdmondsKarp nfFordFulkerson(n, source, sink);
 
   //Edges from source.
   nfFordFulkerson.AddEdge(source, 0, 7);
@@ -214,11 +261,14 @@ void Test_NF_FordFulkerson2()
   std::cout << "Max flow for given graph is: " << nfFordFulkerson.GetMaxFlow() << std::endl;
 }
 
-void Test_NF_FordFulkerson()
+void Test_NF_EdmondsKarp()
 {
-  std::cout << "Testing NF_FordFulkerson example1" << std::endl;
-  Test_NF_FordFulkerson1(); //Small graph
+  std::cout << "Testing NF_EdmondsKarp example1" << std::endl;
+  Test_NF_EdmondsKarp1(); //Small graph1
 
-  std::cout << "Testing NF_FordFulkerson example2" << std::endl;
-  Test_NF_FordFulkerson2(); //Bigger graph
+  std::cout << "Testing NF_EdmondsKarp example2" << std::endl;
+  Test_NF_EdmondsKarp2(); //Small graph2
+
+  std::cout << "Testing NF_EdmondsKarp example2" << std::endl;
+  Test_NF_EdmondsKarp3(); //Bigger graph
 }
