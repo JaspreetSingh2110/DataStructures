@@ -124,6 +124,9 @@ void TestNonLinearDS()
 
   std::cout << "\nTest Prims MST [lazy version]\n";
   Test_PrimsMinSpanningTree_LazySolver();
+
+  std::cout << "\nTest Ford Fulkerson - Network flow - Max flow algorithm\n";
+  Test_NF_FordFulkerson();
 }
 
 int main()

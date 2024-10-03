@@ -62,4 +62,7 @@ void TestArticulationPoints();
 void Test_KruskalsMinSpanningTree();
 void Test_PrimsMinSpanningTree_LazySolver();
 
+//Network flows
+void Test_NF_FordFulkerson();
+
 #endif //GRAPHS_H

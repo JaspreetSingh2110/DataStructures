@@ -41,4 +41,5 @@ add_executable(DataStructures main.cpp
         UnionFind/UnionFind.h
         NonLinearDS/Graphs/KruskalsMinSpanningTree.cpp
         NonLinearDS/Graphs/PrimsMinSpanningTree_Lazy.cpp
+        NonLinearDS/Graphs/MaxNetworkFlow_FordFulkerson.cpp
 )
