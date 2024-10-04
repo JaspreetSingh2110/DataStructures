@@ -116,6 +116,9 @@ void TestNonLinearDS()
   std::cout << "\nTest Bridges locator\n";
   TestBridges();
 
+  std::cout << "\nTest Tarjan's strongly connected components\n";
+  Test_Tarjans_StronglyConnectedComponents();
+
   std::cout << "\nTest Articulation points\n";
   TestArticulationPoints();
 

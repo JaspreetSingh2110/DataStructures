@@ -43,4 +43,5 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Graphs/PrimsMinSpanningTree_Lazy.cpp
         NonLinearDS/Graphs/MaxNetworkFlow_FordFulkerson.cpp
         NonLinearDS/Graphs/MaxNetworkFlow_EdmondsKarp.cpp
+        NonLinearDS/Graphs/Tarjans_StronglyConnectedComponents.cpp
 )

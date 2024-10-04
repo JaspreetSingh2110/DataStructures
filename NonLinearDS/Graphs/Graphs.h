@@ -58,6 +58,9 @@ void TestEulerianPath();
 void TestBridges();
 void TestArticulationPoints();
 
+///Strongly connected components.
+void Test_Tarjans_StronglyConnectedComponents();
+
 //Minimum spanning tree algorithms.
 void Test_KruskalsMinSpanningTree();
 void Test_PrimsMinSpanningTree_LazySolver();
