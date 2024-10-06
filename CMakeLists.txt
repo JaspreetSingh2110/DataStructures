@@ -44,4 +44,6 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Graphs/MaxNetworkFlow_FordFulkerson.cpp
         NonLinearDS/Graphs/MaxNetworkFlow_EdmondsKarp.cpp
         NonLinearDS/Graphs/Tarjans_StronglyConnectedComponents.cpp
+        Search/LinearSearch.cpp
+        Search/Search.h
 )

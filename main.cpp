@@ -7,8 +7,8 @@
 #include "LinearDS/Queue.h"
 #include "LinearDS/SingleLinkedLists.h"
 #include "LinearDS/DoubleLinkedList.h"
-
 #include "NonLinearDS/Graphs/Graphs.h"
+#include "Search/Search.h"
 
 
 void TestLinearDS() {
@@ -77,9 +77,9 @@ void TestSortingTechniques()
     //BucketSort(testVector);
     //PrintVector(testVector);
 
-    std::cout << "Testing Radix Sort\n";
-    RadixSort(testVector);
-    PrintVector(testVector);
+    //std::cout << "Testing Radix Sort\n";
+    //RadixSort(testVector);
+    //PrintVector(testVector);
   }
 }
 
@@ -135,11 +135,19 @@ void TestNonLinearDS()
   Test_NF_EdmondsKarp();
 }
 
+void TestSearchingTechniques() {
+  std::cout << "\nTest Searching Techniques!!!\n";
+
+  std::cout << "Test linear search technique\n";
+  TestLinearSearch();
+}
+
 int main()
 {
   //TestSortingTechniques();
   //TestLinearDS();
   TestNonLinearDS();
+  TestSearchingTechniques();
   return 0;
 }
 
