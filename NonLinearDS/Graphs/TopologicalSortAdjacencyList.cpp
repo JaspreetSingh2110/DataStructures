@@ -4,6 +4,7 @@
 
 #include <list>
 
+#include <cstring>
 #include "Graphs.h"
 
 class TopologicalSortAdjacencyList {

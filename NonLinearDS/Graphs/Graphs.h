@@ -5,6 +5,9 @@
 #ifndef GRAPHS_H
 #define GRAPHS_H
 #include <map>
+#include <vector>
+#include <cstring>
+#include <cstdint>
 #include <iostream>
 
 class Edge {

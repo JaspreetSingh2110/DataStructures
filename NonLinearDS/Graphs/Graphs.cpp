@@ -3,6 +3,10 @@
 //
 
 #include "Graphs.h"
+#include <cstring>
+#include <cstdint>
+#include <stdint.h>
+
 
 Graph::Graph(int numNodes)
 {

@@ -3,7 +3,8 @@
 //
 
 #include <iostream>
-
+#include <vector>
+#include <algorithm>
 #include "../../UnionFind/UnionFind.h"
 
 class KruskalsMinSpanningTree {

@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <list>
+#include <vector>
 
 class EulerianPath {
   public:
