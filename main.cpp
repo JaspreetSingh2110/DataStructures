@@ -140,13 +140,16 @@ void TestSearchingTechniques() {
 
   std::cout << "Test linear search technique\n";
   TestLinearSearch();
+
+  std::cout << "Test binary search\n";
+  TestBinarySearch();
 }
 
 int main()
 {
   //TestSortingTechniques();
   //TestLinearDS();
-  TestNonLinearDS();
+  //TestNonLinearDS();
   TestSearchingTechniques();
   return 0;
 }

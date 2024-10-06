@@ -46,4 +46,5 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Graphs/Tarjans_StronglyConnectedComponents.cpp
         Search/LinearSearch.cpp
         Search/Search.h
+        Search/BinarySearch.cpp
 )

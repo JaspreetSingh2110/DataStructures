@@ -6,5 +6,6 @@
 #define SEARCH_H
 
 void TestLinearSearch();
+void TestBinarySearch();
 
 #endif //SEARCH_H
