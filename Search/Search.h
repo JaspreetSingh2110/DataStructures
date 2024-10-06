@@ -8,5 +8,6 @@
 void TestLinearSearch();
 void TestBinarySearch();
 void TestTernarySearch();
+void TestInterpolationSearch();
 
 #endif //SEARCH_H

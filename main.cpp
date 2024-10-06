@@ -138,14 +138,17 @@ void TestNonLinearDS()
 void TestSearchingTechniques() {
   std::cout << "\nTest Searching Techniques!!!\n";
 
-  std::cout << "\nTest linear search technique\n";
+  std::cout << "\nTest Linear search technique\n";
   TestLinearSearch();
 
-  std::cout << "\nTest binary search\n";
+  std::cout << "\nTest Binary search\n";
   TestBinarySearch();
 
-  std::cout << "\nTest ternary search\n";
+  std::cout << "\nTest Ternary search\n";
   TestTernarySearch();
+
+  std::cout << "\nTest Interpolation search\n";
+  TestInterpolationSearch();
 }
 
 int main()

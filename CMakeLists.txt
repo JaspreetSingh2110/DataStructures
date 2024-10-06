@@ -48,4 +48,5 @@ add_executable(DataStructures main.cpp
         Search/Search.h
         Search/BinarySearch.cpp
         Search/TernarySearch.cpp
+        Search/InterpolationSearch.cpp
 )
