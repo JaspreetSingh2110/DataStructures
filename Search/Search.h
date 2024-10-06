@@ -7,5 +7,6 @@
 
 void TestLinearSearch();
 void TestBinarySearch();
+void TestTernarySearch();
 
 #endif //SEARCH_H
