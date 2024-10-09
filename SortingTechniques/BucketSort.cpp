@@ -3,6 +3,8 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <algorithm>
 
 int GetMaxElement(std::vector<int> nums)
 {

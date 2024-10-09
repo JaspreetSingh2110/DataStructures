@@ -5,6 +5,7 @@
 #include <iostream>
 #include <map>
 #include <stack>
+#include <vector>
 
 class Tarjans_StronglyConnectedComponents {
   public:

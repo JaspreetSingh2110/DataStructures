@@ -6,6 +6,8 @@
 #include <map>
 #include <list>
 #include <queue>
+#include <cstdint>
+#include <cstring>
 
 #define MAX 100000
 
