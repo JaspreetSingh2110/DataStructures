@@ -9,6 +9,7 @@
 #include <iostream>
 #include <ostream>
 #include <queue>
+#include <stack>
 
 enum TraversalOrder {
   PRE_ORDER = 0,
@@ -37,17 +38,43 @@ class BinarySearchTrees {
 
   ~BinarySearchTrees()
   {
+    DeleteTree();
+  }
+
+  void DeleteTree()
+  {
     //Delete Tree. i.e. all nodes.
+    //Traverse the tree and get all node pointers.
+    std::queue<Node *> q;
+
+    if (root == nullptr) {
+      return;
+    }
+
+    q.push(root);
+    while (!q.empty()) {
+      auto node = q.front();
+      q.pop();
+
+      if (node->left) {
+        q.push(node->left);
+      }
+      if (node->right) {
+        q.push(node->right);
+      }
+      delete node;
+    }
+
+    //Reset root.
+    root = nullptr;
   }
 
   //Primary function to add new node to tree.
   Node* AddNode(int value)
   {
-    Node *newNode = new Node(value);
-
     //If empty tree.
     if (root == nullptr) {
-      root = newNode;
+      root = new Node(value);
       return root;
     }
     return AddNode(root, value);
@@ -90,10 +117,7 @@ class BinarySearchTrees {
   //Helper function to delete node from tree.
   Node *DeleteNode(Node* node, int value)
   {
-    if (node == nullptr) {
-      return node;
-    }
-
+    //Traverse to required node to be deleted.
     if (value < node->data) {
       node->left = DeleteNode(node->left, value);
     }
@@ -348,7 +372,7 @@ void Test_BinarySearchTree()
   std::cout << "\nHeight of tree is: " << tree.Height() << std::endl;
 
   //Test deletions.
-  int deleteTestElems[] = {43, 56, 15, 61, 50};
+  int deleteTestElems[] = {43, 56, 15, 61, 50, 100};
   for (int deleteTestElem : deleteTestElems) {
     std::cout << "\nDeleting element [" << deleteTestElem << "] from tree!!!" << std::endl;
 
@@ -365,4 +389,9 @@ void Test_BinarySearchTree()
     std::cout << "Level order traversal of tree after deletion of node: ";
     tree.Traverse(LEVEL_ORDER);
   }
+
+  //Test deletion of tree.
+  std::cout << "\nDeleting complete tree i.e. all nodes are getting deleted\n";
+  tree.DeleteTree();
+  std::cout << "Height of tree after tree deletion: " << tree.Height() << std::endl;
 }
