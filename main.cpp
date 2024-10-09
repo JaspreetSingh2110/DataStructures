@@ -9,6 +9,7 @@
 #include "LinearDS/DoubleLinkedList.h"
 
 #include "NonLinearDS/Graphs/Graphs.h"
+#include "NonLinearDS/Trees/Trees.h"
 
 
 void TestLinearDS() {
@@ -84,7 +85,7 @@ void TestSortingTechniques()
 }
 
 
-void TestNonLinearDS()
+void Test_Graphs()
 {
   std::cout << "\nTesting Depth first search!!!\n";
   TestDFS();
@@ -133,6 +134,19 @@ void TestNonLinearDS()
 
   std::cout << "\nTest Edmonds Karp - Network flow - Max flow algorithm\n";
   Test_NF_EdmondsKarp();
+}
+
+void Test_Trees()
+{
+  //Test Binary search tree.
+  std::cout << "\nTesting Binary Search Trees\n";
+  Test_BinarySearchTree();
+}
+
+void TestNonLinearDS()
+{
+  //Test_Graphs();
+  Test_Trees();
 }
 
 int main()
