@@ -11,13 +11,8 @@
 #include <queue>
 #include <stack>
 
-enum TraversalOrder {
-  PRE_ORDER = 0,
-  IN_ORDER = 1,
-  POST_ORDER = 2,
-  LEVEL_ORDER = 3,
-  ORDER_MAX
-};
+#include "Trees.h"
+
 
 class BinarySearchTrees {
   public:
@@ -129,7 +124,9 @@ class BinarySearchTrees {
 
       /* If node is a leaf node and has no subtree
        * return nullptr to the parent node to point at.
-       */
+       * NOTE: This case can be removed and will be handled by case2/3.
+       * But for readability and clear understanding, it is being added here.
+      */
       if (node->left == nullptr && node->right == nullptr) {
         delete node;
         return nullptr;
@@ -319,6 +316,7 @@ class BinarySearchTrees {
     return (1 + std::max(Height(node->left), Height(node->right)));
   }
 
+private:
   Node *root = nullptr;
 };
 

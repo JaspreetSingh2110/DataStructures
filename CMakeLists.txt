@@ -51,4 +51,5 @@ add_executable(DataStructures main.cpp
         Search/InterpolationSearch.cpp
         NonLinearDS/Trees/BinarySearchTrees.cpp
         NonLinearDS/Trees/Trees.h
+        NonLinearDS/Trees/AVLTree.cpp
 )

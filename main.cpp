@@ -157,6 +157,9 @@ void Test_Trees()
   //Test Binary search tree.
   std::cout << "\nTesting Binary Search Trees\n";
   Test_BinarySearchTree();
+
+  std::cout << "\nTesting AVL Trees\n";
+  Test_AVLTree();
 }
 
 void TestNonLinearDS()
