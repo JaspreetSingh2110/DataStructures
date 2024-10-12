@@ -1,5 +1,6 @@
 /*
  * Description:
+ * Implementation of AVL tree.
  *
  * Created on 10/12/2024.
  * @author: Jaspreet Singh, mr.jaspreet2110@gmail.com
