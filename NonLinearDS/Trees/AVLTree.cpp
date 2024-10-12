@@ -36,7 +36,8 @@ class AVLTree {
 
   ~AVLTree()
   {
-    //Add code to delete tree.
+    DeleteTree();
+    root = nullptr;
   }
 
   //API for right rotation of tree/subtree.
@@ -362,6 +363,7 @@ class AVLTree {
     while (root != nullptr) {
       root = DeleteNode(root->key);
     }
+    root = nullptr;
   }
 
 private:
