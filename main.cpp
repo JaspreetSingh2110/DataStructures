@@ -160,6 +160,9 @@ void Test_Trees()
 
   std::cout << "\nTesting AVL Trees\n";
   Test_AVLTree();
+
+  std::cout << "\nTesting Red Black Trees\n";
+  Test_RedBlackTree();
 }
 
 void TestNonLinearDS()
