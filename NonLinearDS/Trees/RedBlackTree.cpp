@@ -345,6 +345,12 @@ class RedBlackTree {
     root = nil;
   }
 
+  ~RedBlackTree()
+  {
+    DeleteTree();
+    root = nil;
+  }
+
   void LevelOrderTraverse()
   {
     //If empty tree.

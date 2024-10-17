@@ -19,5 +19,6 @@ enum TraversalOrder {
 void Test_BinarySearchTree();
 void Test_AVLTree();
 void Test_RedBlackTree();
+void Test_BTree();
 
 #endif //TREES_H
