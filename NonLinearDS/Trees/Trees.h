@@ -20,5 +20,6 @@ void Test_BinarySearchTree();
 void Test_AVLTree();
 void Test_RedBlackTree();
 void Test_BTree();
+void Test_BPlusTree();
 
 #endif //TREES_H

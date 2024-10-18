@@ -54,4 +54,5 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Trees/AVLTree.cpp
         NonLinearDS/Trees/RedBlackTree.cpp
         NonLinearDS/Trees/BTree.cpp
+        NonLinearDS/Trees/B+Tree.cpp
 )

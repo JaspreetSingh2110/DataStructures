@@ -166,6 +166,9 @@ void Test_Trees()
 
   std::cout << "\nTesting B-Trees\n";
   Test_BTree();
+
+  std::cout << "\nTesting B+ Trees\n";
+  Test_BPlusTree();
 }
 
 void TestNonLinearDS()
