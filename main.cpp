@@ -169,6 +169,9 @@ void Test_Trees()
 
   std::cout << "\nTesting B+ Trees\n";
   Test_BPlusTree();
+
+  std::cout << "\nTesting Trie data structure\n";
+  Test_Trie();
 }
 
 void TestNonLinearDS()

@@ -21,5 +21,6 @@ void Test_AVLTree();
 void Test_RedBlackTree();
 void Test_BTree();
 void Test_BPlusTree();
+void Test_Trie();
 
 #endif //TREES_H
