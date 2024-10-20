@@ -16,6 +16,16 @@ This project implements following data structures:
 * **Union Find**
 * **Graph algorithms**
 * **Trees**
+  * **Binary Search Tree**
+  * **AVL Tree**
+  * **Red Black Tree**
+  * **B Tree**
+  * **B+ Tree**
+  * **Trie**
+* **Heap**
+  * **Min Heap**
+  * **Max Heap**
+  * **Heap Sort (Ascending/Descending)**
 
 # Upcoming
 Others data structures and algorithms implementation is in progress. Will be released soon.
