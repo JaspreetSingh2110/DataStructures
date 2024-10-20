@@ -24,6 +24,7 @@ This project implements following data structures:
   * **Bucket Sort**
   * **Counting Sort**
   * **Heap Sort (under Heap directory)**
+  * **Topological Sort (under Graph directory)**
 * **Stack**
 * **Queues**
 * **Linked Lists (Single/Double)**
