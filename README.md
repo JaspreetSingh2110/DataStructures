@@ -9,7 +9,20 @@ This project is created with aim to have all data structures and algorithms impl
 # Contents
 This project implements following data structures:
 * **Sorting Techniques**
+  * **Bubble Sort**
+  * **Insertion Sort**
+  * **Selection Sort**
+  * **Merge Sort**
+  * **Quick Sort**
+  * **Shell Sort**
+  * **Radix Sort**
+  * **Bucket Sort**
+  * **Counting Sort**
 * **Searching Techniques**
+  * **Linear Search**
+  * **Binary Search**
+  * **Ternary Search**
+  * **Interpolation Search**
 * **Stack**
 * **Queues**
 * **Linked Lists (Single/Double)**
