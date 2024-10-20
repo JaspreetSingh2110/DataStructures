@@ -9,6 +9,7 @@
 #define HEAP_H
 
 void Test_MaxHeap();
+void Test_MinHeap();
 
 void Test_HeapSort();
 
