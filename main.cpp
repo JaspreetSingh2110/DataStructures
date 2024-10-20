@@ -10,7 +10,7 @@
 #include "NonLinearDS/Graphs/Graphs.h"
 #include "Search/Search.h"
 #include "NonLinearDS/Trees/Trees.h"
-
+#include "NonLinearDS/Heap/Heap.h"
 
 void TestLinearDS() {
   std::cout << "Testing data structures implementation!" << std::endl;
@@ -174,10 +174,22 @@ void Test_Trees()
   Test_Trie();
 }
 
+void Test_Heap()
+{
+  std::cout << "\nTesting Heap\n";
+
+  std::cout << "\nTest Max heap!!!\n";
+  Test_MaxHeap();
+
+  std::cout << "\nTest Heap sort!!!\n";
+  Test_HeapSort();
+}
+
 void TestNonLinearDS()
 {
   //Test_Graphs();
-  Test_Trees();
+  //Test_Trees();
+  Test_Heap();
 }
 
 int main()

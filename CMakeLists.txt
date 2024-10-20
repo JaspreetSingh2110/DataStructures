@@ -56,4 +56,7 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Trees/BTree.cpp
         NonLinearDS/Trees/B+Tree.cpp
         NonLinearDS/Trees/Trie.cpp
+        NonLinearDS/Heap/MaxHeap.cpp
+        NonLinearDS/Heap/Heap.h
+        NonLinearDS/Heap/HeapSort.cpp
 )
