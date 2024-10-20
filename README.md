@@ -23,6 +23,7 @@ This project implements following data structures:
   * **Radix Sort**
   * **Bucket Sort**
   * **Counting Sort**
+  * **Heap Sort (under Heap directory)**
 * **Stack**
 * **Queues**
 * **Linked Lists (Single/Double)**
