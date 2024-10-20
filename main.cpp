@@ -181,7 +181,7 @@ void Test_Heap()
   std::cout << "\nTest Max heap!!!\n";
   Test_MaxHeap();
 
-  std::cout << "\nTest Heap sort!!!\n";
+  std::cout << "\n\nTest Heap sort!!!\n";
   Test_HeapSort();
 }
 
