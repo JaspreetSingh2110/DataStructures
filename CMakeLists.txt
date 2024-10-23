@@ -64,4 +64,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Algorithms.h
         Algorithms/Array/MaximumSubArraySum_KadaneAlgo.cpp
         Algorithms/Array/MissingNumber.cpp
+        Algorithms/Array/TrappingWaterProblem.cpp
 )

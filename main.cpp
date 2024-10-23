@@ -212,6 +212,7 @@ void Test_ArrayAlgorithms()
   Test_MaxArraySum();
   Test_MaxArraySum_KadaneAlgo();
   Test_FindMissingNumber();
+  Test_CalculateTrappedWater();
 }
 
 void Test_Algorithms()

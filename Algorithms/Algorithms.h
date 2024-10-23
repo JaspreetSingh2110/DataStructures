@@ -12,5 +12,6 @@
 void Test_MaxArraySum();
 void Test_MaxArraySum_KadaneAlgo();
 void Test_FindMissingNumber();
+void Test_CalculateTrappedWater();
 
 #endif //ALGORITHMS_H
