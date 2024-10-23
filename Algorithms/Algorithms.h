@@ -11,5 +11,6 @@
 //Array algorithms.
 void Test_MaxArraySum();
 void Test_MaxArraySum_KadaneAlgo();
+void Test_FindMissingNumber();
 
 #endif //ALGORITHMS_H

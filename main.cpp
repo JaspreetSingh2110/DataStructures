@@ -211,6 +211,7 @@ void Test_ArrayAlgorithms()
   std::cout << "\nTesting Array Algorithms \n";
   Test_MaxArraySum();
   Test_MaxArraySum_KadaneAlgo();
+  Test_FindMissingNumber();
 }
 
 void Test_Algorithms()
