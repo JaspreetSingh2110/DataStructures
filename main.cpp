@@ -211,8 +211,12 @@ void Test_ArrayAlgorithms()
   std::cout << "\nTesting Array Algorithms \n";
   Test_MaxArraySum();
   Test_MaxArraySum_KadaneAlgo();
+
   Test_FindMissingNumber();
+
   Test_CalculateTrappedWater();
+  Test_CalculateTrappedWater_OptimisedUsingSpace();
+  Test_CalculateTrappedWater_OptimisedDoublePointers();
 }
 
 void Test_Algorithms()

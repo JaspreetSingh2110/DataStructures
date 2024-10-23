@@ -13,5 +13,7 @@ void Test_MaxArraySum();
 void Test_MaxArraySum_KadaneAlgo();
 void Test_FindMissingNumber();
 void Test_CalculateTrappedWater();
+void Test_CalculateTrappedWater_OptimisedUsingSpace();
+void Test_CalculateTrappedWater_OptimisedDoublePointers();
 
 #endif //ALGORITHMS_H

@@ -65,4 +65,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/MaximumSubArraySum_KadaneAlgo.cpp
         Algorithms/Array/MissingNumber.cpp
         Algorithms/Array/TrappingWaterProblem.cpp
+        Algorithms/Array/TrappingWaterProblem_Optimised_ExtraSpace.cpp
+        Algorithms/Array/TrappingWaterProblem_Optimised_DoublePointers.cpp
 )

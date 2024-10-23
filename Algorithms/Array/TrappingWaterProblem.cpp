@@ -48,7 +48,7 @@ int CalculateTrappedWater(std::vector<int> &heights)
   return totalWater;
 }
 
-int Test_CalculateTrappedWater()
+void Test_CalculateTrappedWater()
 {
   std::cout << "\nTest Calculate Trapped water\n";
   std::vector<int> arr = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
