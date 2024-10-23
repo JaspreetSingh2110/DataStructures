@@ -42,7 +42,7 @@ This project implements following data structures:
   * **Max Heap**
   * **Heap Sort (Ascending/Descending)** 
 * **Algorithms**
-  **Array Algorithms**
+  * **Array Algorithms**
 
 # Upcoming
 Others data structures and algorithms implementation is in progress. Will be released soon.
