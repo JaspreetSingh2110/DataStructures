@@ -217,6 +217,9 @@ void Test_ArrayAlgorithms()
   Test_CalculateTrappedWater();
   Test_CalculateTrappedWater_OptimisedUsingSpace();
   Test_CalculateTrappedWater_OptimisedDoublePointers();
+
+  Test_MaxSubArrayProduct();
+  Test_MaxSubArrayProductOptimised();
 }
 
 void Test_Algorithms()

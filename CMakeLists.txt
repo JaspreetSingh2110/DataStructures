@@ -67,4 +67,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/TrappingWaterProblem.cpp
         Algorithms/Array/TrappingWaterProblem_Optimised_ExtraSpace.cpp
         Algorithms/Array/TrappingWaterProblem_Optimised_DoublePointers.cpp
+        Algorithms/Array/MaximumSubArrayProduct.cpp
+        Algorithms/Array/MaximumSubArrayProduct_Optimised.cpp
 )

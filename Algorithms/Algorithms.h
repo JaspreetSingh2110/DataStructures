@@ -11,9 +11,14 @@
 //Array algorithms.
 void Test_MaxArraySum();
 void Test_MaxArraySum_KadaneAlgo();
+
 void Test_FindMissingNumber();
+
 void Test_CalculateTrappedWater();
 void Test_CalculateTrappedWater_OptimisedUsingSpace();
 void Test_CalculateTrappedWater_OptimisedDoublePointers();
+
+void Test_MaxSubArrayProduct();
+void Test_MaxSubArrayProductOptimised();
 
 #endif //ALGORITHMS_H
