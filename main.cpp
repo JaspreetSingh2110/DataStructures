@@ -12,6 +12,8 @@
 #include "NonLinearDS/Trees/Trees.h"
 #include "NonLinearDS/Heap/Heap.h"
 
+#include "Algorithms/Algorithms.h"
+
 void TestLinearDS() {
   std::cout << "Testing data structures implementation!" << std::endl;
 
@@ -29,7 +31,6 @@ void TestLinearDS() {
 
   std::cout << "Testing DONE!" << std::endl;
 }
-
 
 void TestSortingTechniques()
 {
@@ -83,7 +84,6 @@ void TestSortingTechniques()
     //PrintVector(testVector);
   }
 }
-
 
 void Test_Graphs()
 {
@@ -192,15 +192,41 @@ void TestNonLinearDS()
 {
   //Test_Graphs();
   //Test_Trees();
-  Test_Heap();
+  //Test_Heap();
 }
+
+void Test_DataStructures()
+{
+  std::cout << "\nTesting Data Structures\n";
+
+  //TestSearchingTechniques();
+  //TestSortingTechniques();
+  //TestLinearDS();
+  //TestNonLinearDS();
+  std::cout << "*******************************************" << std::endl;
+}
+
+void Test_ArrayAlgorithms()
+{
+  std::cout << "\nTesting Array Algorithms \n";
+  Test_MaxArraySum();
+}
+
+void Test_Algorithms()
+{
+  std::cout << "\nTesting Algorithms !!!\n";
+
+  Test_ArrayAlgorithms();
+
+  std::cout << "*******************************************" << std::endl;
+}
+
 
 int main()
 {
-  //TestSortingTechniques();
-  //TestLinearDS();
-  TestNonLinearDS();
-  //TestSearchingTechniques();
+  Test_DataStructures();
+
+  Test_Algorithms();
   return 0;
 }
 

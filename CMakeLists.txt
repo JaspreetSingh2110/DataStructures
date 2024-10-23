@@ -60,4 +60,6 @@ add_executable(DataStructures main.cpp
         NonLinearDS/Heap/Heap.h
         NonLinearDS/Heap/HeapSort.cpp
         NonLinearDS/Heap/MinHeap.cpp
+        Algorithms/Array/MaximimSubArraySum.cpp
+        Algorithms/Algorithms.h
 )
