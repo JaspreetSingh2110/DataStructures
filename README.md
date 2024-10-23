@@ -8,14 +8,39 @@ This project is created with aim to have all data structures and algorithms impl
 
 # Contents
 This project implements following data structures:
-* **Sorting Techniques**
 * **Searching Techniques**
+  * **Linear Search**
+  * **Binary Search**
+  * **Ternary Search**
+  * **Interpolation Search**
+* **Sorting Techniques**
+  * **Bubble Sort**
+  * **Insertion Sort**
+  * **Selection Sort**
+  * **Merge Sort**
+  * **Quick Sort**
+  * **Shell Sort**
+  * **Radix Sort**
+  * **Bucket Sort**
+  * **Counting Sort**
+  * **Heap Sort (under Heap directory)**
+  * **Topological Sort (under Graph directory)**
 * **Stack**
 * **Queues**
 * **Linked Lists (Single/Double)**
 * **Union Find**
 * **Graph algorithms**
 * **Trees**
+  * **Binary Search Tree**
+  * **AVL Tree**
+  * **Red Black Tree**
+  * **B Tree**
+  * **B+ Tree**
+  * **Trie**
+* **Heap**
+  * **Min Heap**
+  * **Max Heap**
+  * **Heap Sort (Ascending/Descending)**
 
 # Upcoming
 Others data structures and algorithms implementation is in progress. Will be released soon.
