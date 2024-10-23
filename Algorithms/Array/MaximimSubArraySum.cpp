@@ -54,6 +54,7 @@ int MaxSubArraySum(std::vector<int> arr)
 
 void Test_MaxArraySum()
 {
+  std::cout << "\nTest maximum sub array sum: BRUTE FORCE algorithm!!!\n";
   std::vector<int> arr = {2, 3, -8, 7, -1, 2, 3};
   int res = MaxSubArraySum(arr);
   std::cout << "Maximum sub array sum is: " << res << std::endl;

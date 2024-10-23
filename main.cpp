@@ -210,6 +210,7 @@ void Test_ArrayAlgorithms()
 {
   std::cout << "\nTesting Array Algorithms \n";
   Test_MaxArraySum();
+  Test_MaxArraySum_KadaneAlgo();
 }
 
 void Test_Algorithms()
