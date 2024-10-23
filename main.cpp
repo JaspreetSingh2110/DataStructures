@@ -220,6 +220,10 @@ void Test_ArrayAlgorithms()
 
   Test_MaxSubArrayProduct();
   Test_MaxSubArrayProductOptimised();
+
+  Test_EquilibriumPoint();
+  Test_EquilibriumPoint_Optimised_UsingSpace();
+  Test_EquilibriumPoint_Optimised_WithoutUsingSpace();
 }
 
 void Test_Algorithms()

@@ -21,4 +21,8 @@ void Test_CalculateTrappedWater_OptimisedDoublePointers();
 void Test_MaxSubArrayProduct();
 void Test_MaxSubArrayProductOptimised();
 
+void Test_EquilibriumPoint();
+void Test_EquilibriumPoint_Optimised_UsingSpace();
+void Test_EquilibriumPoint_Optimised_WithoutUsingSpace();
+
 #endif //ALGORITHMS_H
