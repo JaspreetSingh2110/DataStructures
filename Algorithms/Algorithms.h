@@ -25,4 +25,7 @@ void Test_EquilibriumPoint();
 void Test_EquilibriumPoint_Optimised_UsingSpace();
 void Test_EquilibriumPoint_Optimised_WithoutUsingSpace();
 
+void Test_FindLeaders();
+void Test_FindLeaders_Optimised();
+
 #endif //ALGORITHMS_H

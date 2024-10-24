@@ -224,6 +224,9 @@ void Test_ArrayAlgorithms()
   Test_EquilibriumPoint();
   Test_EquilibriumPoint_Optimised_UsingSpace();
   Test_EquilibriumPoint_Optimised_WithoutUsingSpace();
+
+  Test_FindLeaders();
+  Test_FindLeaders_Optimised();
 }
 
 void Test_Algorithms()

@@ -72,4 +72,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/EqlibriumPoint.cpp
         Algorithms/Array/EquilibriumPoint_Optimised_UsingSpace.cpp
         Algorithms/Array/EquilibriumPoint_Optimised_WithoutUsingSpace.cpp
+        Algorithms/Array/Leaders.cpp
+        Algorithms/Array/Leaders_Optimised.cpp
 )
