@@ -244,6 +244,7 @@ void Test_StringAlgorithms()
   std::cout << "\nTesting string Algorithms !!!\n";
 
   Test_FindLongestPalindrome();
+  Test_FindLongestPalindrome_DP();
 }
 
 void Test_Algorithms()

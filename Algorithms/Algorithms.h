@@ -41,5 +41,6 @@ void Test_BotanicSequenceMaxLength();
 
 //String algorithms.
 void Test_FindLongestPalindrome();
+void Test_FindLongestPalindrome_DP();
 
 #endif //ALGORITHMS_H

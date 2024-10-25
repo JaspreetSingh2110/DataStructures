@@ -81,4 +81,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/MaxPlatforms_Optimised_UsingSort.cpp
         Algorithms/Array/BotanicSequenceMaxLength.cpp
         Algorithms/String/LongestPalindromicSubString.cpp
+        Algorithms/String/LongestPalindromicSubString_DP.cpp
 )
