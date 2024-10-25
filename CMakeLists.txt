@@ -74,4 +74,7 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/EquilibriumPoint_Optimised_WithoutUsingSpace.cpp
         Algorithms/Array/Leaders.cpp
         Algorithms/Array/Leaders_Optimised.cpp
+        Algorithms/Array/RotateArray.cpp
+        Algorithms/Array/KthLargestNumber.cpp
+        Algorithms/Array/KthLargestNumber_Optimised_HeapSort.cpp
 )

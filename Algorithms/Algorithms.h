@@ -28,4 +28,9 @@ void Test_EquilibriumPoint_Optimised_WithoutUsingSpace();
 void Test_FindLeaders();
 void Test_FindLeaders_Optimised();
 
+void Test_ArrayRotation();
+
+void Test_KthLargestNumber();
+void Test_KthLargestNumber_Optimised_HeapSort();
+
 #endif //ALGORITHMS_H

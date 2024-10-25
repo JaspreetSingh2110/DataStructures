@@ -227,6 +227,11 @@ void Test_ArrayAlgorithms()
 
   Test_FindLeaders();
   Test_FindLeaders_Optimised();
+
+  Test_ArrayRotation();
+
+  Test_KthLargestNumber();
+  Test_KthLargestNumber_Optimised_HeapSort();
 }
 
 void Test_Algorithms()
