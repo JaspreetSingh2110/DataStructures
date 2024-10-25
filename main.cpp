@@ -232,13 +232,26 @@ void Test_ArrayAlgorithms()
 
   Test_KthLargestNumber();
   Test_KthLargestNumber_Optimised_HeapSort();
+
+  Test_FindMaxPlatforms();
+  Test_FindMaxPlatforms_Optimised_UsingSort();
+
+  Test_BotanicSequenceMaxLength();
+}
+
+void Test_StringAlgorithms()
+{
+  std::cout << "\nTesting string Algorithms !!!\n";
+
+  Test_FindLongestPalindrome();
 }
 
 void Test_Algorithms()
 {
   std::cout << "\nTesting Algorithms !!!\n";
 
-  Test_ArrayAlgorithms();
+  //Test_ArrayAlgorithms();
+  Test_StringAlgorithms();
 
   std::cout << "*******************************************" << std::endl;
 }

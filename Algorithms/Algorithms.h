@@ -33,4 +33,13 @@ void Test_ArrayRotation();
 void Test_KthLargestNumber();
 void Test_KthLargestNumber_Optimised_HeapSort();
 
+void Test_FindMaxPlatforms();
+void Test_FindMaxPlatforms_Optimised_UsingSort();
+
+void Test_BotanicSequenceMaxLength();
+
+
+//String algorithms.
+void Test_FindLongestPalindrome();
+
 #endif //ALGORITHMS_H

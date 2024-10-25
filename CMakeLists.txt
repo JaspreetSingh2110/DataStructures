@@ -77,4 +77,8 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/RotateArray.cpp
         Algorithms/Array/KthLargestNumber.cpp
         Algorithms/Array/KthLargestNumber_Optimised_HeapSort.cpp
+        Algorithms/Array/MaxPlatforms.cpp
+        Algorithms/Array/MaxPlatforms_Optimised_UsingSort.cpp
+        Algorithms/Array/BotanicSequenceMaxLength.cpp
+        Algorithms/String/LongestPalindromicSubString.cpp
 )
