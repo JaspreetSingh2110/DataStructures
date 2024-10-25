@@ -16,7 +16,7 @@
 std::string FindLongestPalindrome_DP(std::string& str)
 {
   if (str.empty()) {
-    return 0;
+    return str;
   }
 
   int size = str.size();
