@@ -190,19 +190,19 @@ void Test_Heap()
 
 void TestNonLinearDS()
 {
-  //Test_Graphs();
-  //Test_Trees();
-  //Test_Heap();
+  Test_Graphs();
+  Test_Trees();
+  Test_Heap();
 }
 
 void Test_DataStructures()
 {
   std::cout << "\nTesting Data Structures\n";
 
-  //TestSearchingTechniques();
-  //TestSortingTechniques();
-  //TestLinearDS();
-  //TestNonLinearDS();
+  TestSearchingTechniques();
+  TestSortingTechniques();
+  TestLinearDS();
+  TestNonLinearDS();
   std::cout << "*******************************************" << std::endl;
 }
 

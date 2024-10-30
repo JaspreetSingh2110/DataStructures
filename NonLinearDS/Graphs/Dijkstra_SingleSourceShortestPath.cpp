@@ -133,10 +133,11 @@ public:
         }
 
         //Weight to reach neighbor node is current wight + edge weight to reach next node.
-        if (dist[edge.to] > dist[edge.from] + edge.weight) {
-          dist[edge.to] = dist[edge.from] + edge.weight;
+        int newWeight = dist[edge.from] + edge.weight;
+        if (dist[edge.to] > newWeight) {
+          dist[edge.to] = newWeight;
           prev[edge.to] = edge.from;
-          pq.push({edge.to, edge.weight});
+          pq.push({edge.to, newWeight});
         }
       }
     }
