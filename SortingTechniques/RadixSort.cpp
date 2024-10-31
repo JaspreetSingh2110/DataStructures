@@ -49,7 +49,7 @@ void RadixSort(std::vector<int> &nums)
   int max = GetMaxElementInArray(nums);
 
   //Execute the loop for each decimal position
-  for (int idx = 1; max/idx > 0 ; idx+=10) {
+  for (int idx = 1; max/idx > 0 ; idx*=10) {
     CountSort(nums, idx);
   }
 }
