@@ -43,6 +43,9 @@ void Test_FindPairSum_Optimised1();
 void Test_FindPairSum_Optimised2();
 void Test_FindPairSum_Optimised3();
 
+void Test_MaxProfit_1_Transaction();
+void Test_MaxProfit_1_Transaction_Optimisedv1();
+
 
 //String algorithms.
 void Test_FindLongestPalindrome();

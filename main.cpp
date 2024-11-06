@@ -242,6 +242,9 @@ void Test_ArrayAlgorithms()
   Test_FindPairSum_Optimised1();
   Test_FindPairSum_Optimised2();
   Test_FindPairSum_Optimised3();
+
+  Test_MaxProfit_1_Transaction();
+  Test_MaxProfit_1_Transaction_Optimisedv1();
 }
 
 void Test_StringAlgorithms()

@@ -86,4 +86,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/PairWithGivenSum_Optimised1.cpp
         Algorithms/Array/PairWithGivenSum_Optimised2.cpp
         Algorithms/Array/PairWithGivenSum_Optimised3.cpp
+        Algorithms/Array/StockBuySell_1_Transaction.cpp
+        Algorithms/Array/StockBuySell_1_Transaction_Optimisedv1.cpp
 )
