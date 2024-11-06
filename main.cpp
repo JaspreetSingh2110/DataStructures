@@ -237,6 +237,8 @@ void Test_ArrayAlgorithms()
   Test_FindMaxPlatforms_Optimised_UsingSort();
 
   Test_BotanicSequenceMaxLength();
+
+  Test_FindPairSum();
 }
 
 void Test_StringAlgorithms()
@@ -251,8 +253,8 @@ void Test_Algorithms()
 {
   std::cout << "\nTesting Algorithms !!!\n";
 
-  //Test_ArrayAlgorithms();
-  Test_StringAlgorithms();
+  Test_ArrayAlgorithms();
+  //Test_StringAlgorithms();
 
   std::cout << "*******************************************" << std::endl;
 }

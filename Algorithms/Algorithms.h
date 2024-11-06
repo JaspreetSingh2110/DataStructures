@@ -38,6 +38,8 @@ void Test_FindMaxPlatforms_Optimised_UsingSort();
 
 void Test_BotanicSequenceMaxLength();
 
+void Test_FindPairSum();
+
 
 //String algorithms.
 void Test_FindLongestPalindrome();

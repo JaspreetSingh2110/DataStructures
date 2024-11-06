@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <vector>
+#include <bits/stdc++.h>
 
 int FindMaxPlatforms_Optimised_UsingSort(std::vector<double> &arrivals, std::vector<double> &departure)
 {

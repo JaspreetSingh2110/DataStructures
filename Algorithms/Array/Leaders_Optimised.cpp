@@ -13,6 +13,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 std::vector<int> FindLeaders_Optimised(std::vector<int>& nums)
 {

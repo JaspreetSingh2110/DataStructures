@@ -82,4 +82,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/BotanicSequenceMaxLength.cpp
         Algorithms/String/LongestPalindromicSubString.cpp
         Algorithms/String/LongestPalindromicSubString_DP.cpp
+        Algorithms/Array/PairWithGivenSum.cpp
 )
