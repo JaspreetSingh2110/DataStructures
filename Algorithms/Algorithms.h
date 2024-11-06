@@ -39,6 +39,9 @@ void Test_FindMaxPlatforms_Optimised_UsingSort();
 void Test_BotanicSequenceMaxLength();
 
 void Test_FindPairSum();
+void Test_FindPairSum_Optimised1();
+void Test_FindPairSum_Optimised2();
+void Test_FindPairSum_Optimised3();
 
 
 //String algorithms.

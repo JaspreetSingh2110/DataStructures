@@ -83,4 +83,7 @@ add_executable(DataStructures main.cpp
         Algorithms/String/LongestPalindromicSubString.cpp
         Algorithms/String/LongestPalindromicSubString_DP.cpp
         Algorithms/Array/PairWithGivenSum.cpp
+        Algorithms/Array/PairWithGivenSum_Optimised1.cpp
+        Algorithms/Array/PairWithGivenSum_Optimised2.cpp
+        Algorithms/Array/PairWithGivenSum_Optimised3.cpp
 )

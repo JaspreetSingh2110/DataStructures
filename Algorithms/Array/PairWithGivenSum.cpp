@@ -1,6 +1,7 @@
 /*
  * Description:
  * Find a pair of numbers whose sum is target value.
+ * TC: O(n2)
  *
  * Created on: 11/6/2024
  * @author: Jaspreet Singh, mr.jaspreet2110@gmail.com.

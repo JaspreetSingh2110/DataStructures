@@ -239,6 +239,9 @@ void Test_ArrayAlgorithms()
   Test_BotanicSequenceMaxLength();
 
   Test_FindPairSum();
+  Test_FindPairSum_Optimised1();
+  Test_FindPairSum_Optimised2();
+  Test_FindPairSum_Optimised3();
 }
 
 void Test_StringAlgorithms()
