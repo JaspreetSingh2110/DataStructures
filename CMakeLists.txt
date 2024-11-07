@@ -91,4 +91,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/FindMinElementInSortedRotatedArray.cpp
         Algorithms/Array/BinarySearchRotatedArray.cpp
         Algorithms/Array/ContainerWithMostWater_Optimised.cpp
+        Algorithms/Array/InsertInterval_Optimised.cpp
+        Algorithms/Array/MergeOverlappingIntervals.cpp
 )

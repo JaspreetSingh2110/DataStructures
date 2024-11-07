@@ -52,6 +52,9 @@ void Test_BinarySearchRotatedArray();
 
 void Test_FindMaxWaterContained();
 
+void Test_InsertInterval_Optimised();
+void Test_MergeIntervals();
+
 
 //String algorithms.
 void Test_FindLongestPalindrome();

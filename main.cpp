@@ -251,6 +251,9 @@ void Test_ArrayAlgorithms()
   Test_BinarySearchRotatedArray();
 
   Test_FindMaxWaterContained();
+
+  Test_InsertInterval_Optimised();
+  Test_MergeIntervals();
 }
 
 void Test_StringAlgorithms()
