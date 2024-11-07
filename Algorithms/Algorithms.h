@@ -50,6 +50,8 @@ void Test_FindMinElement();
 
 void Test_BinarySearchRotatedArray();
 
+void Test_FindMaxWaterContained();
+
 
 //String algorithms.
 void Test_FindLongestPalindrome();

@@ -249,6 +249,8 @@ void Test_ArrayAlgorithms()
   Test_FindMinElement();
 
   Test_BinarySearchRotatedArray();
+
+  Test_FindMaxWaterContained();
 }
 
 void Test_StringAlgorithms()

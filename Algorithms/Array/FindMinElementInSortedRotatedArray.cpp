@@ -40,6 +40,6 @@ void Test_FindMinElement()
   std::vector<int> arr3 = {4,5,6,1,2,3};
 
   std::cout << "Test case #1: Minimum element in given array is: " << FindMinElement(arr1) << std::endl;
-  std::cout << "Test case #1: Minimum element in given array is: " << FindMinElement(arr2) << std::endl;
-  std::cout << "Test case #1: Minimum element in given array is: " << FindMinElement(arr3) << std::endl;
+  std::cout << "Test case #2: Minimum element in given array is: " << FindMinElement(arr2) << std::endl;
+  std::cout << "Test case #3: Minimum element in given array is: " << FindMinElement(arr3) << std::endl;
 }
