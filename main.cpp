@@ -254,6 +254,7 @@ void Test_ArrayAlgorithms()
 
   Test_InsertInterval_Optimised();
   Test_MergeIntervals();
+  Test_FindNonOverlappingIntervals();
 }
 
 void Test_StringAlgorithms()

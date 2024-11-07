@@ -93,4 +93,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/ContainerWithMostWater_Optimised.cpp
         Algorithms/Array/InsertInterval_Optimised.cpp
         Algorithms/Array/MergeOverlappingIntervals.cpp
+        Algorithms/Array/FindNonOverlappingIntervals.cpp
 )

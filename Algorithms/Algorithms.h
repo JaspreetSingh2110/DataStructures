@@ -54,6 +54,7 @@ void Test_FindMaxWaterContained();
 
 void Test_InsertInterval_Optimised();
 void Test_MergeIntervals();
+void Test_FindNonOverlappingIntervals();
 
 
 //String algorithms.
