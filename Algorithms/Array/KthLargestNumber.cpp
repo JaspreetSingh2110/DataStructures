@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <vector>
-#include <bits/stdc++.h>
+#include <algorithm>
 
 int KthLargestNumber(std::vector<int>& nums, int k)
 {

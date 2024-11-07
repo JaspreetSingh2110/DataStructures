@@ -245,6 +245,10 @@ void Test_ArrayAlgorithms()
 
   Test_MaxProfit_1_Transaction();
   Test_MaxProfit_1_Transaction_Optimisedv1();
+
+  Test_FindMinElement();
+
+  Test_BinarySearchRotatedArray();
 }
 
 void Test_StringAlgorithms()
