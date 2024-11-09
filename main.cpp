@@ -257,20 +257,30 @@ void Test_ArrayAlgorithms()
   Test_FindNonOverlappingIntervals();
 }
 
+void Test_MatrixAlgorithms()
+{
+  std::cout << "\nTesting matirx Algorithms !!!\n";
+
+  Test_SpiralTraversal_v1();
+}
+
 void Test_StringAlgorithms()
 {
   std::cout << "\nTesting string Algorithms !!!\n";
 
   Test_FindLongestPalindrome();
   Test_FindLongestPalindrome_DP();
+
+  Test_ReverseWords();
 }
 
 void Test_Algorithms()
 {
   std::cout << "\nTesting Algorithms !!!\n";
 
-  Test_ArrayAlgorithms();
-  //Test_StringAlgorithms();
+  //Test_ArrayAlgorithms();
+  //Test_MatrixAlgorithms();
+  Test_StringAlgorithms();
 
   std::cout << "*******************************************" << std::endl;
 }

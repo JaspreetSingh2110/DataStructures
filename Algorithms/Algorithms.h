@@ -56,9 +56,14 @@ void Test_InsertInterval_Optimised();
 void Test_MergeIntervals();
 void Test_FindNonOverlappingIntervals();
 
+//Matrix algorithms.
+void Test_SpiralTraversal_v1();
+
 
 //String algorithms.
 void Test_FindLongestPalindrome();
 void Test_FindLongestPalindrome_DP();
+
+void Test_ReverseWords();
 
 #endif //ALGORITHMS_H

@@ -94,4 +94,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/InsertInterval_Optimised.cpp
         Algorithms/Array/MergeOverlappingIntervals.cpp
         Algorithms/Array/FindNonOverlappingIntervals.cpp
+        Algorithms/Matrix/SpiralTraversal_v1.cpp
+        Algorithms/String/ReverseWords.cpp
 )
