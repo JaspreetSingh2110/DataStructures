@@ -272,6 +272,13 @@ void Test_StringAlgorithms()
   Test_FindLongestPalindrome_DP();
 
   Test_ReverseWords();
+  Test_FindClosestDistance();
+  Test_IsIsomorphic();
+  Test_IsKAnagrams();
+  Test_IsPanagrams();
+
+  Test_CountDeletionsToMakeStringPalindrome();
+  Test_CheckIfEqualAfterRotations();
 }
 
 void Test_Algorithms()

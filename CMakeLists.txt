@@ -96,4 +96,10 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/FindNonOverlappingIntervals.cpp
         Algorithms/Matrix/SpiralTraversal_v1.cpp
         Algorithms/String/ReverseWords.cpp
+        Algorithms/String/ClosestString.cpp
+        Algorithms/String/IsomorphicStrings.cpp
+        Algorithms/String/K-Anagrams.cpp
+        Algorithms/String/IsPanagrams.cpp
+        Algorithms/String/NosDeletionsToMakePalindrome.cpp
+        Algorithms/String/CheckIfStringsAreEqualAfterRotations.cpp
 )

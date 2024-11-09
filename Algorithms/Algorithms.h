@@ -65,5 +65,12 @@ void Test_FindLongestPalindrome();
 void Test_FindLongestPalindrome_DP();
 
 void Test_ReverseWords();
+void Test_FindClosestDistance();
+void Test_IsIsomorphic();
+void Test_IsKAnagrams();
+void Test_IsPanagrams();
+
+void Test_CountDeletionsToMakeStringPalindrome();
+void Test_CheckIfEqualAfterRotations();
 
 #endif //ALGORITHMS_H
