@@ -72,5 +72,6 @@ void Test_IsPanagrams();
 
 void Test_CountDeletionsToMakeStringPalindrome();
 void Test_CheckIfEqualAfterRotations();
+void Test_LongestCommonSubSequence();
 
 #endif //ALGORITHMS_H

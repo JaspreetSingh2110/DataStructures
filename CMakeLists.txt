@@ -102,4 +102,5 @@ add_executable(DataStructures main.cpp
         Algorithms/String/IsPanagrams.cpp
         Algorithms/String/NosDeletionsToMakePalindrome.cpp
         Algorithms/String/CheckIfStringsAreEqualAfterRotations.cpp
+        Algorithms/String/LongestCommonSubsequence.cpp
 )

@@ -279,6 +279,8 @@ void Test_StringAlgorithms()
 
   Test_CountDeletionsToMakeStringPalindrome();
   Test_CheckIfEqualAfterRotations();
+
+  Test_LongestCommonSubSequence();
 }
 
 void Test_Algorithms()
