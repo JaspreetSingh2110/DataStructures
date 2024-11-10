@@ -103,4 +103,5 @@ add_executable(DataStructures main.cpp
         Algorithms/String/NosDeletionsToMakePalindrome.cpp
         Algorithms/String/CheckIfStringsAreEqualAfterRotations.cpp
         Algorithms/String/LongestCommonSubsequence.cpp
+        Algorithms/String/ValidateIPAddress.cpp
 )

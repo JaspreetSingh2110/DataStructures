@@ -281,6 +281,7 @@ void Test_StringAlgorithms()
   Test_CheckIfEqualAfterRotations();
 
   Test_LongestCommonSubSequence();
+  Test_ValidateIPAddress();
 }
 
 void Test_Algorithms()

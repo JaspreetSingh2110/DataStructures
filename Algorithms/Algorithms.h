@@ -73,5 +73,6 @@ void Test_IsPanagrams();
 void Test_CountDeletionsToMakeStringPalindrome();
 void Test_CheckIfEqualAfterRotations();
 void Test_LongestCommonSubSequence();
+void Test_ValidateIPAddress();
 
 #endif //ALGORITHMS_H
