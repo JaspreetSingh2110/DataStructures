@@ -273,7 +273,8 @@ void Test_StringAlgorithms()
   Test_IsIsomorphic();
   Test_IsKAnagrams();
   Test_IsPanagrams();
-  Test_ValidateIPAddress();;
+  Test_IsSubSequence();
+  Test_ValidateIPAddress();
 
   Test_CountDeletionsToMakeStringPalindrome();
   Test_CheckIfEqualAfterRotations();
@@ -281,6 +282,7 @@ void Test_StringAlgorithms()
   Test_FindLongestPalindromeSubString();
   Test_LongestCommonSubSequence();
   Test_FindLongestPalindromeSubSequence();
+  Test_FindLongestSubSequenceWordInDict();
 }
 
 void Test_Algorithms()

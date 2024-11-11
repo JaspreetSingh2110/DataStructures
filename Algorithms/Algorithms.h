@@ -66,6 +66,7 @@ void Test_FindClosestDistance();
 void Test_IsIsomorphic();
 void Test_IsKAnagrams();
 void Test_IsPanagrams();
+void Test_IsSubSequence();
 void Test_ValidateIPAddress();
 
 void Test_CountDeletionsToMakeStringPalindrome();
@@ -74,5 +75,6 @@ void Test_CheckIfEqualAfterRotations();
 void Test_FindLongestPalindromeSubString();
 void Test_LongestCommonSubSequence();
 void Test_FindLongestPalindromeSubSequence();
+void Test_FindLongestSubSequenceWordInDict();
 
 #endif //ALGORITHMS_H

@@ -104,4 +104,6 @@ add_executable(DataStructures main.cpp
         Algorithms/String/LongestCommonSubsequence.cpp
         Algorithms/String/ValidateIPAddress.cpp
         Algorithms/String/LongestPalindromicSubSequence.cpp
+        Algorithms/String/IsSubSequence.cpp
+        Algorithms/String/FindLongestWordInDictionary.cpp
 )
