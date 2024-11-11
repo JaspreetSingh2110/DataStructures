@@ -61,18 +61,18 @@ void Test_SpiralTraversal_v1();
 
 
 //String algorithms.
-void Test_FindLongestPalindrome();
-void Test_FindLongestPalindrome_DP();
-
 void Test_ReverseWords();
 void Test_FindClosestDistance();
 void Test_IsIsomorphic();
 void Test_IsKAnagrams();
 void Test_IsPanagrams();
+void Test_ValidateIPAddress();
 
 void Test_CountDeletionsToMakeStringPalindrome();
 void Test_CheckIfEqualAfterRotations();
+
+void Test_FindLongestPalindromeSubString();
 void Test_LongestCommonSubSequence();
-void Test_ValidateIPAddress();
+void Test_FindLongestPalindromeSubSequence();
 
 #endif //ALGORITHMS_H

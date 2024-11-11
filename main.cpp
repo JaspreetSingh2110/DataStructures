@@ -268,20 +268,19 @@ void Test_StringAlgorithms()
 {
   std::cout << "\nTesting string Algorithms !!!\n";
 
-  Test_FindLongestPalindrome();
-  Test_FindLongestPalindrome_DP();
-
   Test_ReverseWords();
   Test_FindClosestDistance();
   Test_IsIsomorphic();
   Test_IsKAnagrams();
   Test_IsPanagrams();
+  Test_ValidateIPAddress();;
 
   Test_CountDeletionsToMakeStringPalindrome();
   Test_CheckIfEqualAfterRotations();
 
+  Test_FindLongestPalindromeSubString();
   Test_LongestCommonSubSequence();
-  Test_ValidateIPAddress();
+  Test_FindLongestPalindromeSubSequence();
 }
 
 void Test_Algorithms()

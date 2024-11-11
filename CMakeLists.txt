@@ -81,7 +81,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/MaxPlatforms_Optimised_UsingSort.cpp
         Algorithms/Array/BotanicSequenceMaxLength.cpp
         Algorithms/String/LongestPalindromicSubString.cpp
-        Algorithms/String/LongestPalindromicSubString_DP.cpp
         Algorithms/Array/PairWithGivenSum.cpp
         Algorithms/Array/PairWithGivenSum_Optimised1.cpp
         Algorithms/Array/PairWithGivenSum_Optimised2.cpp
@@ -104,4 +103,5 @@ add_executable(DataStructures main.cpp
         Algorithms/String/CheckIfStringsAreEqualAfterRotations.cpp
         Algorithms/String/LongestCommonSubsequence.cpp
         Algorithms/String/ValidateIPAddress.cpp
+        Algorithms/String/LongestPalindromicSubSequence.cpp
 )
