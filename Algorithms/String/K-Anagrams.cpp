@@ -10,6 +10,8 @@
 
 #include <iostream>
 #include <string>
+#include <unordered_map>
+#include <vector>
 
 
 //Approach #1: Using unordered set as frequency counter.

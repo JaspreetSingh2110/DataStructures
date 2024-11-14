@@ -13,6 +13,7 @@
 #include <iostream>
 #include <set>
 #include <string>
+#include <vector>
 
 constexpr int MAX_CHAR = 26;
 

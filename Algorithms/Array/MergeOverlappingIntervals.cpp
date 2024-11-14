@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 std::vector<std::vector<int>> MergeIntervals(std::vector<std::vector<int>>& intervals)
 {

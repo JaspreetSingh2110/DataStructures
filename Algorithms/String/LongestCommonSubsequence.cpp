@@ -17,6 +17,8 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
+
 
 //Approach 1: Using recursion and process all possible sub sequences.
 int LongestCommonSubSequence_v1(std::string str1, std::string str2, int l1 = 0, int l2 = 0)

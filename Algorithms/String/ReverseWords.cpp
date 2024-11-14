@@ -17,6 +17,7 @@
 #include <iostream>
 #include <stack>
 #include <string>
+#include <algorithm>
 
 //Approach #1: Using stack.
 std::string ReverseWords_v1(std::string& str, char delimiter)

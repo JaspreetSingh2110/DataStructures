@@ -10,6 +10,8 @@
 
 #include <iostream>
 #include <string>
+#include <sstream>
+#include <unordered_map>
 
 bool IsIsomorphic(std::string& str1, std::string& str2)
 {
