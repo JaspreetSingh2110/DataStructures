@@ -286,6 +286,11 @@ void Test_StringAlgorithms()
 
   Test_LargeNumbersAddition();
   Test_LargeNumbersMultiplication();
+
+  Test_ReplaceSubStrings();
+  Test_LengthOfLongestPrefixSuffix();
+  Test_SmallestSubstringContainingAllCharactersOfOtherString();
+  Test_LongestSubstringOfUniqueCharacters();
 }
 
 void Test_Algorithms()

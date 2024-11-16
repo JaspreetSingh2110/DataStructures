@@ -80,4 +80,9 @@ void Test_FindLongestSubSequenceWordInDict();
 void Test_LargeNumbersAddition();
 void Test_LargeNumbersMultiplication();
 
+void Test_ReplaceSubStrings();
+void Test_LengthOfLongestPrefixSuffix();
+void Test_SmallestSubstringContainingAllCharactersOfOtherString();
+void Test_LongestSubstringOfUniqueCharacters();
+
 #endif //ALGORITHMS_H

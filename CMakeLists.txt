@@ -108,4 +108,8 @@ add_executable(DataStructures main.cpp
         Algorithms/String/FindLongestWordInDictionary.cpp
         Algorithms/String/AddLargeNumbers.cpp
         Algorithms/String/MultiplyLargeNumbers.cpp
+        Algorithms/String/SubStringReplacement.cpp
+        Algorithms/String/LongestPrefixAndSuffix.cpp
+        Algorithms/String/SmallestSubstringContainingAllCharactersOfOtherString.cpp
+        Algorithms/String/LongestSubstringOfUniqueCharacters.cpp
 )
