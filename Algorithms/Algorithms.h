@@ -77,4 +77,7 @@ void Test_LongestCommonSubSequence();
 void Test_FindLongestPalindromeSubSequence();
 void Test_FindLongestSubSequenceWordInDict();
 
+void Test_LargeNumbersAddition();
+void Test_LargeNumbersMultiplication();
+
 #endif //ALGORITHMS_H

@@ -283,6 +283,9 @@ void Test_StringAlgorithms()
   Test_LongestCommonSubSequence();
   Test_FindLongestPalindromeSubSequence();
   Test_FindLongestSubSequenceWordInDict();
+
+  Test_LargeNumbersAddition();
+  Test_LargeNumbersMultiplication();
 }
 
 void Test_Algorithms()

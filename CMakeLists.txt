@@ -106,4 +106,6 @@ add_executable(DataStructures main.cpp
         Algorithms/String/LongestPalindromicSubSequence.cpp
         Algorithms/String/IsSubSequence.cpp
         Algorithms/String/FindLongestWordInDictionary.cpp
+        Algorithms/String/AddLargeNumbers.cpp
+        Algorithms/String/MultiplyLargeNumbers.cpp
 )
