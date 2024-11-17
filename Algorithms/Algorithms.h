@@ -85,4 +85,7 @@ void Test_LengthOfLongestPrefixSuffix();
 void Test_SmallestSubstringContainingAllCharactersOfOtherString();
 void Test_LongestSubstringOfUniqueCharacters();
 
+void Test_StrStrKnuthMorrisPratt();
+void Test_StrStrRabinKarp();
+
 #endif //ALGORITHMS_H

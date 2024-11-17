@@ -291,6 +291,9 @@ void Test_StringAlgorithms()
   Test_LengthOfLongestPrefixSuffix();
   Test_SmallestSubstringContainingAllCharactersOfOtherString();
   Test_LongestSubstringOfUniqueCharacters();
+
+  Test_StrStrKnuthMorrisPratt();
+  Test_StrStrRabinKarp();
 }
 
 void Test_Algorithms()
