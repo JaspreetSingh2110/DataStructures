@@ -294,6 +294,9 @@ void Test_StringAlgorithms()
 
   Test_StrStrKnuthMorrisPratt();
   Test_StrStrRabinKarp();
+
+  Test_CountOps();
+  Test_ShortestCommonSuperSequence();
 }
 
 void Test_Algorithms()

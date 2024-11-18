@@ -88,4 +88,7 @@ void Test_LongestSubstringOfUniqueCharacters();
 void Test_StrStrKnuthMorrisPratt();
 void Test_StrStrRabinKarp();
 
+void Test_CountOps();
+void Test_ShortestCommonSuperSequence();
+
 #endif //ALGORITHMS_H

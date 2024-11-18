@@ -114,4 +114,6 @@ add_executable(DataStructures main.cpp
         Algorithms/String/LongestSubstringOfUniqueCharacters.cpp
         Algorithms/String/StrStrKnuthMorrisPratt.cpp
         Algorithms/String/StrStrRabinKarp.cpp
+        Algorithms/String/CountOpsToConvStr1ToStr2.cpp
+        Algorithms/String/ShortestCommonSuperSequence.cpp
 )
