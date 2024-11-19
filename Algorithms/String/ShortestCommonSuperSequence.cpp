@@ -57,7 +57,7 @@ int ShortestCommonSuperSequence_v2(const std::string& s1, const std::string& s2)
 
 void Test_ShortestCommonSuperSequence()
 {
-  std::cout << "\nTest Shortest common supersequence\n.";
+  std::cout << "\nTest Shortest common supersequence.\n";
   std::string str1 = "AGGTAB";
   std::string str2 = "GXTXAYB";
 
