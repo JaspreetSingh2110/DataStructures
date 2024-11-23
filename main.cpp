@@ -255,6 +255,11 @@ void Test_ArrayAlgorithms()
   Test_InsertInterval_Optimised();
   Test_MergeIntervals();
   Test_FindNonOverlappingIntervals();
+
+  Test_Sort012_DutchNationalFlagAlgo();
+  Test_MoveNegativesToLeft();
+  Test_FindMajorityElement();
+  Test_SortArrayInWaveForm();
 }
 
 void Test_MatrixAlgorithms()
@@ -303,9 +308,9 @@ void Test_Algorithms()
 {
   std::cout << "\nTesting Algorithms !!!\n";
 
-  //Test_ArrayAlgorithms();
+  Test_ArrayAlgorithms();
   //Test_MatrixAlgorithms();
-  Test_StringAlgorithms();
+  //Test_StringAlgorithms();
 
   std::cout << "*******************************************" << std::endl;
 }

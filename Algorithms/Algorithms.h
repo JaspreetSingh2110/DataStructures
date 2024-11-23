@@ -56,6 +56,12 @@ void Test_InsertInterval_Optimised();
 void Test_MergeIntervals();
 void Test_FindNonOverlappingIntervals();
 
+void Test_Sort012_DutchNationalFlagAlgo();
+void Test_MoveNegativesToLeft();
+void Test_FindMajorityElement();
+void Test_SortArrayInWaveForm();
+
+
 //Matrix algorithms.
 void Test_SpiralTraversal_v1();
 

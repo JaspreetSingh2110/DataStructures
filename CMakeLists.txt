@@ -116,4 +116,8 @@ add_executable(DataStructures main.cpp
         Algorithms/String/StrStrRabinKarp.cpp
         Algorithms/String/CountOpsToConvStr1ToStr2.cpp
         Algorithms/String/ShortestCommonSuperSequence.cpp
+        Algorithms/Array/Sort012_DutchNationalFlagAlgo.cpp
+        Algorithms/Array/MoveNegativesOnLeft.cpp
+        Algorithms/Array/MajorityElement_MooreVotingAlgorithm.cpp
+        Algorithms/Array/SortArrayInWaveForm.cpp
 )
