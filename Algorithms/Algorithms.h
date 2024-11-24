@@ -60,10 +60,15 @@ void Test_Sort012_DutchNationalFlagAlgo();
 void Test_MoveNegativesToLeft();
 void Test_FindMajorityElement();
 void Test_SortArrayInWaveForm();
+
 void Test_FindSubArrayWithTargetSum();
 void Test_FindPairsWithTargetSum();
 void Test_FindTripletsWithTargetSum();
 void Test_FindCommonElementsInSortedArray();
+
+void Test_FindLongestSubArrayWithTargetSum0();
+void Test_FindLongestSubArrayWithEqual0and1();
+void Test_CountSubArraysWithEqual0and1();
 
 
 //Matrix algorithms.

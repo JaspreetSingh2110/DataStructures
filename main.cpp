@@ -264,6 +264,10 @@ void Test_ArrayAlgorithms()
   Test_FindPairsWithTargetSum();
   Test_FindTripletsWithTargetSum();
   Test_FindCommonElementsInSortedArray();
+
+  Test_FindLongestSubArrayWithTargetSum0();
+  Test_FindLongestSubArrayWithEqual0and1();
+  Test_CountSubArraysWithEqual0and1();
 }
 
 void Test_MatrixAlgorithms()

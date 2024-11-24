@@ -124,4 +124,7 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/TwoSum_PairsWithTargetSum.cpp
         Algorithms/Array/FindCommonElementsInThreeSortedArrays.cpp
         Algorithms/Array/ThreeSum_TripletsWithTargetSum.cpp
+        Algorithms/Array/LongestSubArrayWithSum0.cpp
+        Algorithms/Array/LongestSubArrayWithequal0and1.cpp
+        Algorithms/Array/CountSubArraysWithEqual0sAnd1s.cpp
 )
