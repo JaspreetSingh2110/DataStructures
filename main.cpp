@@ -261,6 +261,9 @@ void Test_ArrayAlgorithms()
   Test_FindMajorityElement();
   Test_SortArrayInWaveForm();
   Test_FindSubArrayWithTargetSum();
+  Test_FindPairsWithTargetSum();
+  Test_FindTripletsWithTargetSum();
+  Test_FindCommonElementsInSortedArray();
 }
 
 void Test_MatrixAlgorithms()

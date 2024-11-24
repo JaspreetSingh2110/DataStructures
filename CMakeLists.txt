@@ -121,4 +121,7 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/MajorityElement_MooreVotingAlgorithm.cpp
         Algorithms/Array/SortArrayInWaveForm.cpp
         Algorithms/Array/SubArrayWithTargetSum.cpp
+        Algorithms/Array/TwoSum_PairsWithTargetSum.cpp
+        Algorithms/Array/FindCommonElementsInThreeSortedArrays.cpp
+        Algorithms/Array/ThreeSum_TripletsWithTargetSum.cpp
 )

@@ -61,6 +61,9 @@ void Test_MoveNegativesToLeft();
 void Test_FindMajorityElement();
 void Test_SortArrayInWaveForm();
 void Test_FindSubArrayWithTargetSum();
+void Test_FindPairsWithTargetSum();
+void Test_FindTripletsWithTargetSum();
+void Test_FindCommonElementsInSortedArray();
 
 
 //Matrix algorithms.
