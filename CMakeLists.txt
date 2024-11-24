@@ -120,4 +120,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/MoveNegativesOnLeft.cpp
         Algorithms/Array/MajorityElement_MooreVotingAlgorithm.cpp
         Algorithms/Array/SortArrayInWaveForm.cpp
+        Algorithms/Array/SubArrayWithTargetSum.cpp
 )

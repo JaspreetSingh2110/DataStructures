@@ -260,6 +260,7 @@ void Test_ArrayAlgorithms()
   Test_MoveNegativesToLeft();
   Test_FindMajorityElement();
   Test_SortArrayInWaveForm();
+  Test_FindSubArrayWithTargetSum();
 }
 
 void Test_MatrixAlgorithms()

@@ -60,6 +60,7 @@ void Test_Sort012_DutchNationalFlagAlgo();
 void Test_MoveNegativesToLeft();
 void Test_FindMajorityElement();
 void Test_SortArrayInWaveForm();
+void Test_FindSubArrayWithTargetSum();
 
 
 //Matrix algorithms.
