@@ -127,4 +127,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/LongestSubArrayWithSum0.cpp
         Algorithms/Array/LongestSubArrayWithequal0and1.cpp
         Algorithms/Array/CountSubArraysWithEqual0sAnd1s.cpp
+        Algorithms/Array/FindLongestConsecutiveSubSequence.cpp
 )

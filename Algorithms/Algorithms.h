@@ -70,6 +70,8 @@ void Test_FindLongestSubArrayWithTargetSum0();
 void Test_FindLongestSubArrayWithEqual0and1();
 void Test_CountSubArraysWithEqual0and1();
 
+void Test_FindLongestConsecutiveSubSequence();
+
 
 //Matrix algorithms.
 void Test_SpiralTraversal_v1();

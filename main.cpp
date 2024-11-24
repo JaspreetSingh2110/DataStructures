@@ -268,6 +268,7 @@ void Test_ArrayAlgorithms()
   Test_FindLongestSubArrayWithTargetSum0();
   Test_FindLongestSubArrayWithEqual0and1();
   Test_CountSubArraysWithEqual0and1();
+  Test_FindLongestConsecutiveSubSequence();
 }
 
 void Test_MatrixAlgorithms()
