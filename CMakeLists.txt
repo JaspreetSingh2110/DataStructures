@@ -128,4 +128,13 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/LongestSubArrayWithequal0and1.cpp
         Algorithms/Array/CountSubArraysWithEqual0sAnd1s.cpp
         Algorithms/Array/FindLongestConsecutiveSubSequence.cpp
+        Algorithms/Array/FindSmallestPositiveMissingNumber.cpp
+        Algorithms/Array/MissingAndRepeatingNumber.cpp
+        Algorithms/Array/MinimizeHeightDifference.cpp
+        Algorithms/Array/MaxSumPathInTwoSortedArrays.cpp
+        Algorithms/Array/StockSpanProblem.cpp
+        Algorithms/Array/StockBuySell_1Transaction.cpp
+        Algorithms/Array/LongestAlternatingSubSequence.cpp
+        Algorithms/Array/StockBuySell_MultipleTransactions.cpp
+        Algorithms/Array/LongestIncreasingSubSequence.cpp
 )

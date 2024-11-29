@@ -269,6 +269,17 @@ void Test_ArrayAlgorithms()
   Test_FindLongestSubArrayWithEqual0and1();
   Test_CountSubArraysWithEqual0and1();
   Test_FindLongestConsecutiveSubSequence();
+
+  Test_FindSmallestPositiveMissingNumber();
+  Test_FindMissingAndRepeatingNumber();
+  Test_MinimizeHeightDifference();
+  Test_FindMaxSumPathInTwoSortedArrays();
+  Test_StockSpan();
+  Test_StockBuySell_1();
+  Test_StockBuySellMultipleTransactions();
+
+  Test_LongestAlternatingSubSequence();
+  Test_LongestIncreasingSubSequence();
 }
 
 void Test_MatrixAlgorithms()

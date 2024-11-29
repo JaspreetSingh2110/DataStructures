@@ -71,7 +71,16 @@ void Test_FindLongestSubArrayWithEqual0and1();
 void Test_CountSubArraysWithEqual0and1();
 
 void Test_FindLongestConsecutiveSubSequence();
+void Test_FindSmallestPositiveMissingNumber();
+void Test_FindMissingAndRepeatingNumber();
+void Test_MinimizeHeightDifference();
+void Test_FindMaxSumPathInTwoSortedArrays();
+void Test_StockSpan();
+void Test_StockBuySell_1();
+void Test_StockBuySellMultipleTransactions();
 
+void Test_LongestAlternatingSubSequence();
+void Test_LongestIncreasingSubSequence();
 
 //Matrix algorithms.
 void Test_SpiralTraversal_v1();
