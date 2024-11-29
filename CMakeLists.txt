@@ -137,4 +137,7 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/LongestAlternatingSubSequence.cpp
         Algorithms/Array/StockBuySell_MultipleTransactions.cpp
         Algorithms/Array/LongestIncreasingSubSequence.cpp
+        Algorithms/Array/MaxReachableIndex.cpp
+        Algorithms/Array/UnionTwoSortedArrays.cpp
+        Algorithms/Array/IntersectionTwoSortedArrays.cpp
 )

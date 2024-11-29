@@ -280,6 +280,9 @@ void Test_ArrayAlgorithms()
 
   Test_LongestAlternatingSubSequence();
   Test_LongestIncreasingSubSequence();
+  Test_FindMaxReachableIndex();
+  Test_UnionSortedArrays();
+  Test_IntersectionSortedArrays();
 }
 
 void Test_MatrixAlgorithms()

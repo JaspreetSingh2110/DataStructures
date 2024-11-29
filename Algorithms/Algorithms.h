@@ -81,6 +81,9 @@ void Test_StockBuySellMultipleTransactions();
 
 void Test_LongestAlternatingSubSequence();
 void Test_LongestIncreasingSubSequence();
+void Test_FindMaxReachableIndex();
+void Test_UnionSortedArrays();
+void Test_IntersectionSortedArrays();
 
 //Matrix algorithms.
 void Test_SpiralTraversal_v1();
