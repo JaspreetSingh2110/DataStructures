@@ -285,12 +285,6 @@ void Test_ArrayAlgorithms()
   Test_IntersectionSortedArrays();
 }
 
-void Test_MatrixAlgorithms()
-{
-  std::cout << "\nTesting matirx Algorithms !!!\n";
-
-  Test_SpiralTraversal_v1();
-}
 
 void Test_StringAlgorithms()
 {
@@ -332,13 +326,28 @@ void Test_StringAlgorithms()
   Test_CountInsertionsToMakePalindrome();
 }
 
+
+void Test_MatrixAlgorithms()
+{
+  std::cout << "\nTesting matirx Algorithms !!!\n";
+
+  Test_SpiralTraversal_v1();
+  Test_FindWords();
+  Test_CountIslands();
+  Test_FloodFillAlgorithm();
+  Test_FindMaximumGridPaths();
+  Test_FindShortestPathInBinaryMaze();
+  Test_IslandsPerimeter();
+}
+
+
 void Test_Algorithms()
 {
   std::cout << "\nTesting Algorithms !!!\n";
 
-  Test_ArrayAlgorithms();
-  //Test_MatrixAlgorithms();
+  //Test_ArrayAlgorithms();
   //Test_StringAlgorithms();
+  Test_MatrixAlgorithms();
 
   std::cout << "*******************************************" << std::endl;
 }

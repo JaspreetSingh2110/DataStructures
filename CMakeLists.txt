@@ -145,4 +145,10 @@ add_executable(DataStructures main.cpp
         Algorithms/String/NosInsertionsAtBeginToMakePalindrome.cpp
         Algorithms/String/NosInsertionsToMakePalindrome.cpp
         Algorithms/String/NosInsertionsAtBeginToMakePalindrome.cpp
+        Algorithms/Matrix/WordSearch.cpp
+        Algorithms/Matrix/CountIslands.cpp
+        Algorithms/Matrix/FloodFillAlgorithm.cpp
+        Algorithms/Matrix/MaximumGridPaths.cpp
+        Algorithms/Matrix/ShortestPathInBinaryMaze.cpp
+        Algorithms/Matrix/IslandsPerimeter.cpp
 )

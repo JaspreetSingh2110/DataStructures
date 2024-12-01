@@ -73,4 +73,5 @@ void Test_SpiralTraversal_v1()
 
   std::cout << "Spiral traversal\n";
   SpiralTraversal_v1(matrix);
+  std::cout << std::endl;
 }

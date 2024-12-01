@@ -86,10 +86,6 @@ void Test_UnionSortedArrays();
 void Test_IntersectionSortedArrays();
 
 
-//Matrix algorithms.
-void Test_SpiralTraversal_v1();
-
-
 //String algorithms.
 void Test_ReverseWords();
 void Test_FindClosestDistance();
@@ -124,5 +120,15 @@ void Test_AsciiToInt();
 void Test_GenerateDistinctSubsequence();
 void Test_CountInsertionsAtBeginToMakePalindrome();
 void Test_CountInsertionsToMakePalindrome();
+
+
+//Matrix algorithms.
+void Test_SpiralTraversal_v1();
+void Test_FindWords();
+void Test_CountIslands();
+void Test_FloodFillAlgorithm();
+void Test_FindMaximumGridPaths();
+void Test_FindShortestPathInBinaryMaze();
+void Test_IslandsPerimeter();
 
 #endif //ALGORITHMS_H
