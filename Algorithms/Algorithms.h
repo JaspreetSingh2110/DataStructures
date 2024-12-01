@@ -85,6 +85,7 @@ void Test_FindMaxReachableIndex();
 void Test_UnionSortedArrays();
 void Test_IntersectionSortedArrays();
 
+
 //Matrix algorithms.
 void Test_SpiralTraversal_v1();
 
@@ -119,5 +120,9 @@ void Test_StrStrRabinKarp();
 
 void Test_CountOps();
 void Test_ShortestCommonSuperSequence();
+void Test_AsciiToInt();
+void Test_GenerateDistinctSubsequence();
+void Test_CountInsertionsAtBeginToMakePalindrome();
+void Test_CountInsertionsToMakePalindrome();
 
 #endif //ALGORITHMS_H

@@ -325,6 +325,11 @@ void Test_StringAlgorithms()
 
   Test_CountOps();
   Test_ShortestCommonSuperSequence();
+
+  Test_AsciiToInt();
+  Test_GenerateDistinctSubsequence();
+  Test_CountInsertionsAtBeginToMakePalindrome();
+  Test_CountInsertionsToMakePalindrome();
 }
 
 void Test_Algorithms()

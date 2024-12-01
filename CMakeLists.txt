@@ -140,4 +140,9 @@ add_executable(DataStructures main.cpp
         Algorithms/Array/MaxReachableIndex.cpp
         Algorithms/Array/UnionTwoSortedArrays.cpp
         Algorithms/Array/IntersectionTwoSortedArrays.cpp
+        Algorithms/String/Atoi.cpp
+        Algorithms/String/GenerateDistinctSubsequence.cpp
+        Algorithms/String/NosInsertionsAtBeginToMakePalindrome.cpp
+        Algorithms/String/NosInsertionsToMakePalindrome.cpp
+        Algorithms/String/NosInsertionsAtBeginToMakePalindrome.cpp
 )
