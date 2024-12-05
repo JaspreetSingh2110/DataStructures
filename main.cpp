@@ -349,6 +349,7 @@ void Test_LinkedListsAlgorithms()
   Test_SingleLinkedListRotate();
   Test_DeleteLastOccurrenceSLL();
   Test_MergeSLLsAlternatePositions();
+  Test_DeleteNodeWithoutHeadPointer();
 }
 
 

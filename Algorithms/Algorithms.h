@@ -138,5 +138,6 @@ void Test_DoubleLinkedListReverse();
 void Test_SingleLinkedListRotate();
 void Test_DeleteLastOccurrenceSLL();
 void Test_MergeSLLsAlternatePositions();
+void Test_DeleteNodeWithoutHeadPointer();
 
 #endif //ALGORITHMS_H
