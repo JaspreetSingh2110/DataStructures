@@ -139,5 +139,6 @@ void Test_SingleLinkedListRotate();
 void Test_DeleteLastOccurrenceSLL();
 void Test_MergeSLLsAlternatePositions();
 void Test_DeleteNodeWithoutHeadPointer();
+void Test_IsSLLPalindrome();
 
 #endif //ALGORITHMS_H

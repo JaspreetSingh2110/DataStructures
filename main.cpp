@@ -350,6 +350,7 @@ void Test_LinkedListsAlgorithms()
   Test_DeleteLastOccurrenceSLL();
   Test_MergeSLLsAlternatePositions();
   Test_DeleteNodeWithoutHeadPointer();
+  Test_IsSLLPalindrome();
 }
 
 
