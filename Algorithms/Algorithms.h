@@ -136,5 +136,7 @@ void Test_IslandsPerimeter();
 void Test_SingleLinkedListReverse();
 void Test_DoubleLinkedListReverse();
 void Test_SingleLinkedListRotate();
+void Test_DeleteLastOccurrenceSLL();
+void Test_MergeSLLsAlternatePositions();
 
 #endif //ALGORITHMS_H

@@ -347,6 +347,8 @@ void Test_LinkedListsAlgorithms()
   Test_SingleLinkedListReverse();
   Test_DoubleLinkedListReverse();
   Test_SingleLinkedListRotate();
+  Test_DeleteLastOccurrenceSLL();
+  Test_MergeSLLsAlternatePositions();
 }
 
 

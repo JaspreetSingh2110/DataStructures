@@ -154,4 +154,6 @@ add_executable(DataStructures main.cpp
         Algorithms/LinkedLists/ReverseSLL.cpp
         Algorithms/LinkedLists/ReverseDLL.cpp
         Algorithms/LinkedLists/RotateSLL.cpp
+        Algorithms/LinkedLists/DeleteLastOccurance.cpp
+        Algorithms/LinkedLists/MergeSLL.cpp
 )
