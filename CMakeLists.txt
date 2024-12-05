@@ -151,4 +151,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Matrix/MaximumGridPaths.cpp
         Algorithms/Matrix/ShortestPathInBinaryMaze.cpp
         Algorithms/Matrix/IslandsPerimeter.cpp
+        Algorithms/LinkedLists/ReverseSLL.cpp
+        Algorithms/LinkedLists/ReverseDLL.cpp
 )

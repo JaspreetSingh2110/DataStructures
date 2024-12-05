@@ -131,4 +131,9 @@ void Test_FindMaximumGridPaths();
 void Test_FindShortestPathInBinaryMaze();
 void Test_IslandsPerimeter();
 
+
+//Linked Lists algorithms.
+void Test_SingleLinkedListReverse();
+void Test_DoubleLinkedListReverse();
+
 #endif //ALGORITHMS_H

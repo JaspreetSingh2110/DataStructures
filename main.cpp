@@ -341,13 +341,22 @@ void Test_MatrixAlgorithms()
 }
 
 
+void Test_LinkedListsAlgorithms()
+{
+  std::cout << "\nTesting LinkedList Algorithms !!!\n";
+  Test_SingleLinkedListReverse();
+  Test_DoubleLinkedListReverse();
+}
+
+
 void Test_Algorithms()
 {
   std::cout << "\nTesting Algorithms !!!\n";
 
   //Test_ArrayAlgorithms();
   //Test_StringAlgorithms();
-  Test_MatrixAlgorithms();
+  //Test_MatrixAlgorithms();
+  Test_LinkedListsAlgorithms();
 
   std::cout << "*******************************************" << std::endl;
 }
