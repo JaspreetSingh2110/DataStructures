@@ -153,4 +153,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Matrix/IslandsPerimeter.cpp
         Algorithms/LinkedLists/ReverseSLL.cpp
         Algorithms/LinkedLists/ReverseDLL.cpp
+        Algorithms/LinkedLists/RotateSLL.cpp
 )

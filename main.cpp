@@ -346,6 +346,7 @@ void Test_LinkedListsAlgorithms()
   std::cout << "\nTesting LinkedList Algorithms !!!\n";
   Test_SingleLinkedListReverse();
   Test_DoubleLinkedListReverse();
+  Test_SingleLinkedListRotate();
 }
 
 

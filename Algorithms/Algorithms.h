@@ -135,5 +135,6 @@ void Test_IslandsPerimeter();
 //Linked Lists algorithms.
 void Test_SingleLinkedListReverse();
 void Test_DoubleLinkedListReverse();
+void Test_SingleLinkedListRotate();
 
 #endif //ALGORITHMS_H
