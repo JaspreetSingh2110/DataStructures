@@ -43,6 +43,8 @@ This project implements following data structures:
   * **Heap Sort (Ascending/Descending)** 
 * **Algorithms**
   * **Array Algorithms**
+  * **String Algorithms**
+  * **Matrix Algorithms**
 
 # Upcoming
 Others data structures and algorithms implementation is in progress. Will be released soon.
