@@ -353,6 +353,7 @@ void Test_LinkedListsAlgorithms()
   Test_IsSLLPalindrome();
   Test_MergeKSortedSLLs_OneByOne();
   Test_MergeKSortedSLLs_MinHeap();
+  Test_ReverseSubListSLL();
 }
 
 

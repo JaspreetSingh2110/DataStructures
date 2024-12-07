@@ -159,4 +159,5 @@ add_executable(DataStructures main.cpp
         Algorithms/LinkedLists/DeleteNodeWithoutHead.cpp
         Algorithms/LinkedLists/PalindromeCheckSLL.cpp
         Algorithms/LinkedLists/MergeKSortedSLL.cpp
+        Algorithms/LinkedLists/ReverseSublistofSLL.cpp
 )
