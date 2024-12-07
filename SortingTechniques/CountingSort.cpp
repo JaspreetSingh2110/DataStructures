@@ -23,7 +23,7 @@ void CountingSort(std::vector<int> &nums)
   }
   PrintVector(countVec);
 
-  //Find cumilative frequence.
+  //Find cumulative frequency.
   for (int i=1; i < countVec.size(); i++) {
     countVec[i] += countVec[i-1];
   }
