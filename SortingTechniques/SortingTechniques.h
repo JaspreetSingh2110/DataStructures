@@ -25,16 +25,16 @@ ________________________________________________________________________________
                 | Best	        | Average	      | Worst	        | Worst            |
 ___________________________________________________________________________________|
 Bubble Sort	    | O(n)	        | O(n2)	        | O(n2)	        | O(1)             |
-Selection Sort	| O(n2)	        | O(n2)	        | O(n2)	        | O(1)             |
-Insertion Sort	| O(n)	        | O(n2)	        | O(n2)	        | O(1)             |
+Selection Sort  | O(n2)	        | O(n2)	        | O(n2)	        | O(1)             |
+Insertion Sort  | O(n)	        | O(n2)	        | O(n2)	        | O(1)             |
 Shell Sort	    | O(n log(n))	  | O(n log(n))	  | O(n2)	        | O(1)             |
-Merge Sort	    | O(n log(n))	  | O(n log(n))	  | O(n log(n))	  | O(n)             |
-Quick Sort	    | O(n log(n))	  | O(n log(n))	  | O(n2)	        | O(n)             |
-Count Sort	    | O(n +k)	      | O(n +k)	      | O(n +k)	      | O(k)             |
+Merge Sort      | O(n log(n))	  | O(n log(n))	  | O(n log(n))	  | O(n)             |
+Quick Sort      | O(n log(n))	  | O(n log(n))	  | O(n2)	        | O(n)             |
+Count Sort      | O(n +k)	      | O(n +k)	      | O(n +k)	      | O(k)             |
 Bucket Sort	    | O(n +k)	      | O(n +k)	      | O(n2)	        | O(n)             |
-Radix Sort	    | O(nk)	        | O(nk)	        | O(nk)	        | O(n + k)         |
+Radix Sort      | O(nk)	        | O(nk)	        | O(nk)	        | O(n + k)         |
 Heap Sort	      | O(n log(n))	  | O(n log(n))	  | O(n log(n))	  | O(1)             |
-Tim Sort	      | O(n)	        | O(n log(n))	  | O(n log (n))	| O(n)             |
+Tim Sort        | O(n)	        | O(n log(n))	  | O(n log (n))	| O(n)             |
 Tree Sort	      | O(n log(n))	  | O(n log(n))	  | O(n2)	        | O(n)             |
 Cube Sort	      | O(n)	        | O(n log(n))	  | O(n log(n))	  | O(n)             |
 ___________________________________________________________________________________|
