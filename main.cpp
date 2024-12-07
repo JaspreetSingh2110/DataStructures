@@ -355,6 +355,7 @@ void Test_LinkedListsAlgorithms()
   Test_MergeKSortedSLLs_MinHeap();
   Test_ReverseSubListSLL();
   Test_LoopProblemsSLL();
+  Test_SLLIntersectionPoints();
 }
 
 

@@ -144,5 +144,6 @@ void Test_MergeKSortedSLLs_OneByOne();
 void Test_MergeKSortedSLLs_MinHeap();
 void Test_ReverseSubListSLL();
 void Test_LoopProblemsSLL();
+void Test_SLLIntersectionPoints();
 
 #endif //ALGORITHMS_H

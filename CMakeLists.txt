@@ -161,4 +161,5 @@ add_executable(DataStructures main.cpp
         Algorithms/LinkedLists/MergeKSortedSLL.cpp
         Algorithms/LinkedLists/ReverseSublistofSLL.cpp
         Algorithms/LinkedLists/LoopsInSLL.cpp
+        Algorithms/LinkedLists/IntersectionPointInSLL.cpp
 )
