@@ -90,7 +90,7 @@ void Test_MergeSLLsAlternatePositions()
   std::cout << "Initial list #2: ";
   PrintList(head2);
 
-  //Delete the last occurrence of key from list.
+  //Merge the SLLs in alternating positions.
   Node* head = MergeSLLsAlternatePositions(head1, head2);
   std::cout << "List after merge at alternating positions: ";
   PrintList(head);

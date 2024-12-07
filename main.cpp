@@ -351,6 +351,8 @@ void Test_LinkedListsAlgorithms()
   Test_MergeSLLsAlternatePositions();
   Test_DeleteNodeWithoutHeadPointer();
   Test_IsSLLPalindrome();
+  Test_MergeKSortedSLLs_OneByOne();
+  Test_MergeKSortedSLLs_MinHeap();
 }
 
 
