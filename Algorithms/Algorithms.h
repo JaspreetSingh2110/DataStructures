@@ -143,6 +143,6 @@ void Test_IsSLLPalindrome();
 void Test_MergeKSortedSLLs_OneByOne();
 void Test_MergeKSortedSLLs_MinHeap();
 void Test_ReverseSubListSLL();
-
+void Test_LoopProblemsSLL();
 
 #endif //ALGORITHMS_H

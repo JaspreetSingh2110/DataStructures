@@ -8,7 +8,6 @@
 
 #include <iostream>
 
-
 class Node {
 public:
   int data;
@@ -142,7 +141,7 @@ Node* ReverseSubListSLL_v2(Node* head, int start, int end)
 
 void Test_ReverseSubListSLL()
 {
-  std::cout << "\nTest rever of sublist in SLL\n";
+  std::cout << "\nTest reverse of sublist in SLL\n";
   Node *head1 = new Node(1);
   head1->next = new Node(2);
   head1->next->next = new Node(3);
