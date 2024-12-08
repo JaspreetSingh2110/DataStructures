@@ -115,7 +115,7 @@ class AVLTree {
     //Case 1: Left-Left case.
     //New node is added on left hand side of left child of node.
     if ((balanceFactor > 1) && (value < node->left->key)){
-      return RightRotate(node->left);
+      return RightRotate(node);
     }
 
     //Case 2: Right-Right case.
@@ -171,37 +171,40 @@ class AVLTree {
         delete node;
         return nullptr;
       }
-
       //Case 2: If only right child exists.
-      if (node->left == nullptr) {
+      else if (node->left == nullptr) {
         Node* rchild = node->right;
-        delete node;
-        return rchild;
+        *node = *rchild;
+        delete rchild;
       }
-
       //Case 3: If only left child exists.
-      if (node->right == nullptr) {
+      else if (node->right == nullptr) {
         Node* lchild = node->left;
-        delete node;
-        return lchild;
+        *node = *lchild;
+        delete lchild;
       }
+      else {
+        //Case 4: Both child exists.
+        //BST implements this case using min node from right subtree.
+        //Here, we will use max node from left subtree.
+        //Get max node from left subtree.
+        Node *temp = node->left;
+        while (temp->right != nullptr) {
+          temp = temp->right;
+        }
 
-      //Case 4: Both child exists.
-      //BST implements this case using min node from right subtree.
-      //Here, we will use max node from left subtree.
-      //Get max node from left subtree.
-      Node *temp = node->left;
-      while (temp->right != nullptr) {
-        temp = temp->right;
+        //Copy value of temp node to current node.
+        node->key = temp->key;
+
+        //Delete temp node.
+        // Using left child pointer, as the temp node is present in left.
+        node->left = DeleteNode(node->left, temp->key);
+        //return node;
       }
+    }
 
-      //Copy value of temp node to current node.
-      node->key = temp->key;
-
-      //Delete temp node.
-      // Using left child pointer, as the temp node is present in left.
-      node->left = DeleteNode(node->left, temp->key);
-      return node;
+    if (node == nullptr) {
+      return nullptr;
     }
 
     //Balance the tree, if gone out of balance.

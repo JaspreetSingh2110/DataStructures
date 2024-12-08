@@ -141,7 +141,7 @@ class BinarySearchTrees {
         return rchild;
       }
       /* If node has only left subtree,
-       * return its left child pointer t oparent node to point at.
+       * return its left child pointer to parent node to point at.
        */
       if (node->right == nullptr) {
         Node *lchild = node->left;

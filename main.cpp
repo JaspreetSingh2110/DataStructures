@@ -285,7 +285,6 @@ void Test_ArrayAlgorithms()
   Test_IntersectionSortedArrays();
 }
 
-
 void Test_StringAlgorithms()
 {
   std::cout << "\nTesting string Algorithms !!!\n";
@@ -326,7 +325,6 @@ void Test_StringAlgorithms()
   Test_CountInsertionsToMakePalindrome();
 }
 
-
 void Test_MatrixAlgorithms()
 {
   std::cout << "\nTesting matirx Algorithms !!!\n";
@@ -339,7 +337,6 @@ void Test_MatrixAlgorithms()
   Test_FindShortestPathInBinaryMaze();
   Test_IslandsPerimeter();
 }
-
 
 void Test_LinkedListsAlgorithms()
 {
@@ -357,7 +354,6 @@ void Test_LinkedListsAlgorithms()
   Test_LoopProblemsSLL();
   Test_SLLIntersectionPoints();
 }
-
 
 void Test_Algorithms()
 {
