@@ -146,4 +146,10 @@ void Test_ReverseSubListSLL();
 void Test_LoopProblemsSLL();
 void Test_SLLIntersectionPoints();
 
+
+//Trees algorithms.
+void Test_HeightOfBinarySearchTree();
+void Test_CheckIfTreesAreIdentical();
+void Test_MorrisInorderTraversal();
+
 #endif //ALGORITHMS_H
