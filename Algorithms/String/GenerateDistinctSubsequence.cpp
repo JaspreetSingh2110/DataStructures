@@ -9,6 +9,7 @@
 #include <string>
 #include <unordered_set>
 #include <vector>
+#include <cstring>
 
 //Approach 1: Using recursion.
 //TC: O(2^n)

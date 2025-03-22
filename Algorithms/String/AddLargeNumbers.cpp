@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 //Approach 1. Make both strings equal size and create sun character by character.
 std::string AddLargeNumbers(std::string s1, std::string s2)

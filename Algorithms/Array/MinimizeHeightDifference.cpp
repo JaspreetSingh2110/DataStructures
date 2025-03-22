@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 //TC: O(nlogn)
 int FindMinimumHeightDifference(std::vector<int> heights, int factor)

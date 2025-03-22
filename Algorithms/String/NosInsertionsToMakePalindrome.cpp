@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 int CountInsertionsHelper(std::string& s, int i, int j, std::vector<std::vector<int>>& memo)
 {

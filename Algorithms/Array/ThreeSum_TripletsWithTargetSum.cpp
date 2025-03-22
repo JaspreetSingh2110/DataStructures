@@ -9,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_set>
+#include <algorithm>
 
 //Approach 1: Sort + two pointers approach.
 //TC: O(nlogn)

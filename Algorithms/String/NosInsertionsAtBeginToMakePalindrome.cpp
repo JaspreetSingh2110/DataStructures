@@ -9,7 +9,7 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-
+#include <vector>
 
 //Helper approach 2. Generate LPS.
 std::vector<int> GenerateLPS(std::string& str)

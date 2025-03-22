@@ -14,6 +14,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 //Approach #1: Recursive.
 int CountOps_v1(const std::string& s1, const std::string& s2, int l1, int l2)

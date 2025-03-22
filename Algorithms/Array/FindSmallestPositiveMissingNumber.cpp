@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 //Approach 1: Sort and iterate to find.
 //TC: O(nlogn)

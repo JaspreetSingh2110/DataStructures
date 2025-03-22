@@ -8,6 +8,8 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <unordered_map>
 
 //Approach 1: Sort + two pointers approach (Need fix).
 //TC: O(nlogn)
