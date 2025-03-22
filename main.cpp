@@ -355,6 +355,16 @@ void Test_LinkedListsAlgorithms()
   Test_SLLIntersectionPoints();
 }
 
+
+void Test_TreesAlgorithms()
+{
+  std::cout << "\nTesting Trees Algorithms !!!\n";
+
+  Test_HeightOfBinarySearchTree();
+  Test_CheckIfTreesAreIdentical();
+  Test_MorrisInorderTraversal();
+}
+
 void Test_Algorithms()
 {
   std::cout << "\nTesting Algorithms !!!\n";
@@ -362,7 +372,8 @@ void Test_Algorithms()
   //Test_ArrayAlgorithms();
   //Test_StringAlgorithms();
   //Test_MatrixAlgorithms();
-  Test_LinkedListsAlgorithms();
+  //Test_LinkedListsAlgorithms();
+  Test_TreesAlgorithms();
 
   std::cout << "*******************************************" << std::endl;
 }

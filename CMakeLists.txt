@@ -162,4 +162,7 @@ add_executable(DataStructures main.cpp
         Algorithms/LinkedLists/ReverseSublistofSLL.cpp
         Algorithms/LinkedLists/LoopsInSLL.cpp
         Algorithms/LinkedLists/IntersectionPointInSLL.cpp
+        Algorithms/Trees/HeightOfTree.cpp
+        Algorithms/Trees/CheckIfTreesAreIdentical.cpp
+        Algorithms/Trees/MorrisInorderTraversal.cpp
 )
