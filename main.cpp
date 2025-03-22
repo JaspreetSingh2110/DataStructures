@@ -363,6 +363,7 @@ void Test_TreesAlgorithms()
   Test_HeightOfBinarySearchTree();
   Test_CheckIfTreesAreIdentical();
   Test_MorrisInorderTraversal();
+  Test_MirrorTree();
 }
 
 void Test_Algorithms()

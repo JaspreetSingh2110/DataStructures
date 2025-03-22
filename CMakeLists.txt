@@ -165,4 +165,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/HeightOfTree.cpp
         Algorithms/Trees/CheckIfTreesAreIdentical.cpp
         Algorithms/Trees/MorrisInorderTraversal.cpp
+        Algorithms/Trees/MirrorTree.cpp
 )

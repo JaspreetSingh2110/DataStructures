@@ -151,5 +151,6 @@ void Test_SLLIntersectionPoints();
 void Test_HeightOfBinarySearchTree();
 void Test_CheckIfTreesAreIdentical();
 void Test_MorrisInorderTraversal();
+void Test_MirrorTree();
 
 #endif //ALGORITHMS_H
