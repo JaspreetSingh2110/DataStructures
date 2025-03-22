@@ -1,5 +1,6 @@
 /*
  * Description:
+ * Program to generate the mirror trees.
  *
  * Created on: 3/22/2025
  * @author: Jaspreet Singh, mr.jaspreet2110@gmail.com.

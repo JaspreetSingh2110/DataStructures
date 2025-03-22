@@ -152,5 +152,6 @@ void Test_HeightOfBinarySearchTree();
 void Test_CheckIfTreesAreIdentical();
 void Test_MorrisInorderTraversal();
 void Test_MirrorTree();
+void Test_SymmetricTree();
 
 #endif //ALGORITHMS_H

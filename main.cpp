@@ -364,6 +364,7 @@ void Test_TreesAlgorithms()
   Test_CheckIfTreesAreIdentical();
   Test_MorrisInorderTraversal();
   Test_MirrorTree();
+  Test_SymmetricTree();
 }
 
 void Test_Algorithms()
