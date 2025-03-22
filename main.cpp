@@ -365,6 +365,7 @@ void Test_TreesAlgorithms()
   Test_MorrisInorderTraversal();
   Test_MirrorTree();
   Test_SymmetricTree();
+  Test_GetDiameterOfTree();
 }
 
 void Test_Algorithms()

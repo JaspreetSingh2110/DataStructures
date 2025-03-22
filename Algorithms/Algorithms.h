@@ -153,5 +153,6 @@ void Test_CheckIfTreesAreIdentical();
 void Test_MorrisInorderTraversal();
 void Test_MirrorTree();
 void Test_SymmetricTree();
+void Test_GetDiameterOfTree();
 
 #endif //ALGORITHMS_H
