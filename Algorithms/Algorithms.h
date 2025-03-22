@@ -154,5 +154,6 @@ void Test_MorrisInorderTraversal();
 void Test_MirrorTree();
 void Test_SymmetricTree();
 void Test_GetDiameterOfTree();
+void Test_ZigZagTraversal();
 
 #endif //ALGORITHMS_H

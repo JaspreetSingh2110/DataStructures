@@ -366,6 +366,7 @@ void Test_TreesAlgorithms()
   Test_MirrorTree();
   Test_SymmetricTree();
   Test_GetDiameterOfTree();
+  Test_ZigZagTraversal();
 }
 
 void Test_Algorithms()
