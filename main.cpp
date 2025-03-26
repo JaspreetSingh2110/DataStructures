@@ -368,6 +368,7 @@ void Test_TreesAlgorithms()
   Test_GetDiameterOfTree();
   Test_ZigZagTraversal();
   Test_CheckIfTreesIsBalanced();
+  Test_IsSumPropertyFollowed();
 }
 
 
