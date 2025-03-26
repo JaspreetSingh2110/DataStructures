@@ -46,6 +46,7 @@ This project implements following data structures:
   * **String Algorithms**
   * **Matrix Algorithms**
   * **Linked Lists Algorithms**
+  * **Trees Algorithms**
 
 # Upcoming
 Others data structures and algorithms implementation is in progress. Will be released soon.
