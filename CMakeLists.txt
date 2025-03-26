@@ -169,4 +169,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/SymetricTree.cpp
         Algorithms/Trees/DiameterOfTree.cpp
         Algorithms/Trees/07_ZigZagTraversal.cpp
+        Algorithms/Trees/08_HeightBalancedTree.cpp
+        Algorithms/Trees/09_ChildrenSumPropertyInTree.cpp
 )

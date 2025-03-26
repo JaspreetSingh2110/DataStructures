@@ -155,5 +155,6 @@ void Test_MirrorTree();
 void Test_SymmetricTree();
 void Test_GetDiameterOfTree();
 void Test_ZigZagTraversal();
+void Test_CheckIfTreesIsBalanced();
 
 #endif //ALGORITHMS_H
