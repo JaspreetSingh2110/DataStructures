@@ -157,5 +157,6 @@ void Test_GetDiameterOfTree();
 void Test_ZigZagTraversal();
 void Test_CheckIfTreesIsBalanced();
 void Test_IsSumPropertyFollowed();
+void Test_IsBST();
 
 #endif //ALGORITHMS_H

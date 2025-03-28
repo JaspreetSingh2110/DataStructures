@@ -369,6 +369,7 @@ void Test_TreesAlgorithms()
   Test_ZigZagTraversal();
   Test_CheckIfTreesIsBalanced();
   Test_IsSumPropertyFollowed();
+  Test_IsBST();
 }
 
 
@@ -388,7 +389,7 @@ void Test_Algorithms()
 
 int main()
 {
-  Test_DataStructures();
+  //Test_DataStructures();
 
   Test_Algorithms();
   return 0;

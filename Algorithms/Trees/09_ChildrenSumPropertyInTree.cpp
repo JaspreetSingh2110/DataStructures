@@ -3,7 +3,10 @@
  * Program to check if given tree follows children sum property.
  * i.e. each node value is equal to its child nodes values.
  *
- * TC: O(n) -> Bottom up recursive approach.
+ * TC: O(n) -> Recursive approach.
+ *
+ * Alternate approach: Using Queue -> Level order traversal.
+ * If root is following the property, push its children to queue.
  *
  * Created on: 3/26/2025
  * @author: Jaspreet Singh, mr.jaspreet2110@gmail.com.
@@ -65,7 +68,7 @@ void Test_IsSumPropertyFollowed()
   root2->right->left = new BSTNode(2);
 
   int result = -1;
-  std::cout << "Test to check if given tree is following sum property\n";
+  std::cout << "\nTest to check if given tree is following sum property\n";
 
   /**************************************************************************************/
   std::cout << "Test using bottoms up recursive approach\n";

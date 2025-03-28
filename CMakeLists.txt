@@ -171,4 +171,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/07_ZigZagTraversal.cpp
         Algorithms/Trees/08_HeightBalancedTree.cpp
         Algorithms/Trees/09_ChildrenSumPropertyInTree.cpp
+        Algorithms/Trees/10_CheckBST.cpp
 )
