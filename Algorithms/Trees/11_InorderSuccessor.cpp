@@ -151,7 +151,7 @@ void Test_InorderSuccessor()
   std::cout << "Test 5: Inorder success for node 90 is: " << GetInorderSuccessor_v1(root, 90) << ".\n";
 
   /**************************************************************************************/
-  std::cout << "Test using Morris traversal approach\n";
+  std::cout << "Test using BST properties approach\n";
   std::cout << "Test 1: Inorder success for node 4 is: " << GetInorderSuccessor_v2(root2, 4) << ".\n";
   std::cout << "Test 2: Inorder success for node 1 is: " << GetInorderSuccessor_v2(root2, 1) << ".\n";
   std::cout << "Test 3: Inorder success for node 3 is: " << GetInorderSuccessor_v2(root2, 3) << ".\n";

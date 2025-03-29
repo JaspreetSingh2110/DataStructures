@@ -173,4 +173,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/09_ChildrenSumPropertyInTree.cpp
         Algorithms/Trees/10_CheckBST.cpp
         Algorithms/Trees/11_InorderSuccessor.cpp
+        Algorithms/Trees/12_LargestValueInEachLevel.cpp
 )

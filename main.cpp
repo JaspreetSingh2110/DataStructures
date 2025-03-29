@@ -371,6 +371,7 @@ void Test_TreesAlgorithms()
   Test_IsSumPropertyFollowed();
   Test_IsBST();
   Test_InorderSuccessor();
+  Test_LargestValueNodesInEachLevel();
 }
 
 
