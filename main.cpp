@@ -373,6 +373,7 @@ void Test_TreesAlgorithms()
   Test_InorderSuccessor();
   Test_LargestValueNodesInEachLevel();
   Test_ReverseMorrisTraversal();
+  Test_KthLargestElementInTree();
 }
 
 
