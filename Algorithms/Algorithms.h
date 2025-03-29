@@ -162,5 +162,6 @@ void Test_InorderSuccessor();
 void Test_LargestValueNodesInEachLevel();
 void Test_ReverseMorrisTraversal();
 void Test_KthLargestElementInTree();
+void Test_BSTCreationFromSortedArray();
 
 #endif //ALGORITHMS_H

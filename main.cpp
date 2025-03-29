@@ -374,6 +374,7 @@ void Test_TreesAlgorithms()
   Test_LargestValueNodesInEachLevel();
   Test_ReverseMorrisTraversal();
   Test_KthLargestElementInTree();
+  Test_BSTCreationFromSortedArray();
 }
 
 
