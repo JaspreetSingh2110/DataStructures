@@ -158,5 +158,6 @@ void Test_ZigZagTraversal();
 void Test_CheckIfTreesIsBalanced();
 void Test_IsSumPropertyFollowed();
 void Test_IsBST();
+void Test_InorderSuccessor();
 
 #endif //ALGORITHMS_H

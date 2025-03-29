@@ -370,6 +370,7 @@ void Test_TreesAlgorithms()
   Test_CheckIfTreesIsBalanced();
   Test_IsSumPropertyFollowed();
   Test_IsBST();
+  Test_InorderSuccessor();
 }
 
 
