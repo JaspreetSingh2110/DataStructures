@@ -160,5 +160,6 @@ void Test_IsSumPropertyFollowed();
 void Test_IsBST();
 void Test_InorderSuccessor();
 void Test_LargestValueNodesInEachLevel();
+void Test_ReverseMorrisTraversal();
 
 #endif //ALGORITHMS_H
