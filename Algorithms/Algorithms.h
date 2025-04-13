@@ -166,5 +166,6 @@ void Test_BSTCreationFromSortedArray();
 
 void Test_IsSubTree();
 void Test_IterativeTraversal_InPrePostOrder();
+void Test_ReverseLevelOrder();
 
 #endif //ALGORITHMS_H

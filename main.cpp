@@ -378,6 +378,7 @@ void Test_TreesAlgorithms()
 
   Test_IsSubTree();
   Test_IterativeTraversal_InPrePostOrder();
+  Test_ReverseLevelOrder();
 }
 
 
