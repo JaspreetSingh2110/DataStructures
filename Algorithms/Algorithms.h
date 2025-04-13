@@ -164,4 +164,7 @@ void Test_ReverseMorrisTraversal();
 void Test_KthLargestElementInTree();
 void Test_BSTCreationFromSortedArray();
 
+void Test_IsSubTree();
+void Test_IterativeTraversal_InPrePostOrder();
+
 #endif //ALGORITHMS_H

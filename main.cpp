@@ -375,6 +375,9 @@ void Test_TreesAlgorithms()
   Test_ReverseMorrisTraversal();
   Test_KthLargestElementInTree();
   Test_BSTCreationFromSortedArray();
+
+  Test_IsSubTree();
+  Test_IterativeTraversal_InPrePostOrder();
 }
 
 

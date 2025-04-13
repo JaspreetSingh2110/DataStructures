@@ -177,4 +177,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/13_ReverseMorrisTraversal.cpp
         Algorithms/Trees/14_KthLargestElementInTree.cpp
         Algorithms/Trees/15_SortedArrayToBinartSearchTree.cpp
+        Algorithms/Trees/16_IsSubTree.cpp
+        Algorithms/Trees/17_MorrisIterativeTraversal_In_Pre_Post.cpp
 )

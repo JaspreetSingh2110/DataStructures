@@ -60,5 +60,8 @@ void Test_BSTCreationFromSortedArray()
   /**************************************************************************************/
   std::vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
   Node* root = CreateBSTFromSortedArray(v, 0, v.size() - 1);
+
+  //Print the tree after creation
   Inorder(root);
+  std::cout << "\n";
 }
