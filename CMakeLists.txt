@@ -183,4 +183,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/19_VerticalTraversal.cpp
         Algorithms/Trees/20_BoundaryTraversal.cpp
         Algorithms/Trees/21_CreateBinaryTreeFromParentArray.cpp
+        Algorithms/Trees/22_BinaryTreeCreationFromPreAndInOrder.cpp
+        Algorithms/Trees/23_BinaryTreeCreationFromPostAndInOrder.cpp
 )

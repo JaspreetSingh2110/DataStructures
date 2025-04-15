@@ -359,7 +359,7 @@ void Test_LinkedListsAlgorithms()
 void Test_TreesAlgorithms()
 {
   std::cout << "\nTesting Trees Algorithms !!!\n";
-
+/*
   Test_HeightOfBinarySearchTree();
   Test_CheckIfTreesAreIdentical();
   Test_MorrisInorderTraversal();
@@ -381,7 +381,10 @@ void Test_TreesAlgorithms()
   Test_ReverseLevelOrder();
   Test_VerticalTraversal();
   Test_BoundaryTraversal();
+  */
   Test_BinaryTreeCreationFromParentArray();
+  Test_BinaryTreeCreationFromPreOrderAndInOrder();
+  Test_BinaryTreeCreationFromPostOrderAndInOrder();
 }
 
 

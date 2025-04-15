@@ -170,5 +170,7 @@ void Test_ReverseLevelOrder();
 void Test_VerticalTraversal();
 void Test_BoundaryTraversal();
 void Test_BinaryTreeCreationFromParentArray();
+void Test_BinaryTreeCreationFromPreOrderAndInOrder();
+void Test_BinaryTreeCreationFromPostOrderAndInOrder();
 
 #endif //ALGORITHMS_H
