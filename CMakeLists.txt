@@ -162,12 +162,12 @@ add_executable(DataStructures main.cpp
         Algorithms/LinkedLists/ReverseSublistofSLL.cpp
         Algorithms/LinkedLists/LoopsInSLL.cpp
         Algorithms/LinkedLists/IntersectionPointInSLL.cpp
-        Algorithms/Trees/HeightOfTree.cpp
-        Algorithms/Trees/CheckIfTreesAreIdentical.cpp
-        Algorithms/Trees/MorrisInorderTraversal.cpp
-        Algorithms/Trees/MirrorTree.cpp
-        Algorithms/Trees/SymetricTree.cpp
-        Algorithms/Trees/DiameterOfTree.cpp
+        Algorithms/Trees/01_HeightOfTree.cpp
+        Algorithms/Trees/02_CheckIfTreesAreIdentical.cpp
+        Algorithms/Trees/03_MorrisInorderTraversal.cpp
+        Algorithms/Trees/04_MirrorTree.cpp
+        Algorithms/Trees/05_SymetricTree.cpp
+        Algorithms/Trees/06_DiameterOfTree.cpp
         Algorithms/Trees/07_ZigZagTraversal.cpp
         Algorithms/Trees/08_HeightBalancedTree.cpp
         Algorithms/Trees/09_ChildrenSumPropertyInTree.cpp
