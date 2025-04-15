@@ -173,5 +173,6 @@ void Test_BinaryTreeCreationFromParentArray();
 void Test_BinaryTreeCreationFromPreOrderAndInOrder();
 void Test_BinaryTreeCreationFromPostOrderAndInOrder();
 void Test_BinarySearchTreeCreationFromPreOrder();
+void Test_CheckArrayIsPreOrderOfBSTree();
 
 #endif //ALGORITHMS_H
