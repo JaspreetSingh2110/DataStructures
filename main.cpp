@@ -385,6 +385,7 @@ void Test_TreesAlgorithms()
   Test_BinaryTreeCreationFromParentArray();
   Test_BinaryTreeCreationFromPreOrderAndInOrder();
   Test_BinaryTreeCreationFromPostOrderAndInOrder();
+  Test_BinarySearchTreeCreationFromPreOrder();
 }
 
 

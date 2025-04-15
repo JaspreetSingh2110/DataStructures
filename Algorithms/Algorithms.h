@@ -172,5 +172,6 @@ void Test_BoundaryTraversal();
 void Test_BinaryTreeCreationFromParentArray();
 void Test_BinaryTreeCreationFromPreOrderAndInOrder();
 void Test_BinaryTreeCreationFromPostOrderAndInOrder();
+void Test_BinarySearchTreeCreationFromPreOrder();
 
 #endif //ALGORITHMS_H
