@@ -381,6 +381,7 @@ void Test_TreesAlgorithms()
   Test_ReverseLevelOrder();
   Test_VerticalTraversal();
   Test_BoundaryTraversal();
+  Test_BinaryTreeCreationFromParentArray();
 }
 
 

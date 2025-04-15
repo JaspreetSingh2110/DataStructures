@@ -169,5 +169,6 @@ void Test_IterativeTraversal_InPrePostOrder();
 void Test_ReverseLevelOrder();
 void Test_VerticalTraversal();
 void Test_BoundaryTraversal();
+void Test_BinaryTreeCreationFromParentArray();
 
 #endif //ALGORITHMS_H
