@@ -60,14 +60,14 @@ static void LevelOrderTraversal(BTreeNode* root)
   }
 }
 
-BTreeNode *CreateBinaryTreeFromPostOrderAndInOrderMap(std::map<int, int> &inOrderIndexMap, std::vector<int> &preOrder, int &postIndex, int left, int right)
+BTreeNode *CreateBinaryTreeFromPostOrderAndInOrderMap(std::map<int, int> &inOrderIndexMap, std::vector<int> &postOrder, int &postIndex, int left, int right)
 {
   if (left > right) {
     return nullptr;
   }
 
   //Get root node value and create node
-  int rootVal = preOrder[postIndex];
+  int rootVal = postOrder[postIndex];
   BTreeNode *root = new BTreeNode(rootVal);
   postIndex--;
 
@@ -76,8 +76,8 @@ BTreeNode *CreateBinaryTreeFromPostOrderAndInOrderMap(std::map<int, int> &inOrde
 
   //Process right and left subtree.
   //NOTE that we first process the right subtree and then left subtree.
-  root->right = CreateBinaryTreeFromPostOrderAndInOrderMap(inOrderIndexMap, preOrder, postIndex, index + 1, right);
-  root->left = CreateBinaryTreeFromPostOrderAndInOrderMap(inOrderIndexMap, preOrder, postIndex, left, index -1);
+  root->right = CreateBinaryTreeFromPostOrderAndInOrderMap(inOrderIndexMap, postOrder, postIndex, index + 1, right);
+  root->left = CreateBinaryTreeFromPostOrderAndInOrderMap(inOrderIndexMap, postOrder, postIndex, left, index -1);
   return root;
 }
 
