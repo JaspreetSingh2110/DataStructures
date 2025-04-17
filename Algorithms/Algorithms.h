@@ -176,5 +176,6 @@ void Test_BinarySearchTreeCreationFromPreOrder();
 void Test_CheckArrayIsPreOrderOfBSTree();
 void Test_GetAncestorsOfNode();
 void Test_GetLowestCommonAncestorOfNode();
+void Test_GetMaxSumPath();
 
 #endif //ALGORITHMS_H

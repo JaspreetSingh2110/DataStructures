@@ -189,4 +189,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/25_CheckArrayIsPreOrderOfBSTree.cpp
         Algorithms/Trees/26_PrintAncestors.cpp
         Algorithms/Trees/27_LowestCommonAncestors.cpp
+        Algorithms/Trees/28_FindMaxSumPathLeafToRoot.cpp
 )

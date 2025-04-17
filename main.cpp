@@ -389,6 +389,7 @@ void Test_TreesAlgorithms()
   Test_CheckArrayIsPreOrderOfBSTree();
   Test_GetAncestorsOfNode();
   Test_GetLowestCommonAncestorOfNode();
+  Test_GetMaxSumPath();
 }
 
 
