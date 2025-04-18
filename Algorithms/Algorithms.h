@@ -178,5 +178,6 @@ void Test_GetAncestorsOfNode();
 void Test_GetLowestCommonAncestorOfNode();
 void Test_GetMaxSumPath();
 void Test_CloneBinaryTreeWithRandomPointer();
+void Test_RemoveNodesOutsideRangeInBST();
 
 #endif //ALGORITHMS_H
