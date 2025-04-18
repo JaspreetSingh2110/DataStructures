@@ -193,4 +193,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/29_FindDistanceBwNodes.cpp
         Algorithms/Trees/30_CloneBinaryTreeWithRandomPointers.cpp
         Algorithms/Trees/31_RemoveNodesOutsideRangeinBST.cpp
+        Algorithms/Trees/32_MaxPairSumInBST.cpp
 )
