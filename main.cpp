@@ -390,6 +390,7 @@ void Test_TreesAlgorithms()
   Test_GetAncestorsOfNode();
   Test_GetLowestCommonAncestorOfNode();
   Test_GetMaxSumPath();
+  Test_CloneBinaryTreeWithRandomPointer();
 }
 
 

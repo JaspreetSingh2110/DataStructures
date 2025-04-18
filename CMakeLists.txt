@@ -190,4 +190,6 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/26_PrintAncestors.cpp
         Algorithms/Trees/27_LowestCommonAncestors.cpp
         Algorithms/Trees/28_FindMaxSumPathLeafToRoot.cpp
+        Algorithms/Trees/29_FindDistanceBwNodes.cpp
+        Algorithms/Trees/30_CloneBinaryTreeWithRandomPointers.cpp
 )
