@@ -393,6 +393,7 @@ void Test_TreesAlgorithms()
   Test_CloneBinaryTreeWithRandomPointer();
   Test_RemoveNodesOutsideRangeInBST();
   Test_FindPairOfNodesWithTargetSum();
+  Test_IsSumTree();
 }
 
 

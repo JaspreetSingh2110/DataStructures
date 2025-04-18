@@ -180,5 +180,6 @@ void Test_GetMaxSumPath();
 void Test_CloneBinaryTreeWithRandomPointer();
 void Test_RemoveNodesOutsideRangeInBST();
 void Test_FindPairOfNodesWithTargetSum();
+void Test_IsSumTree();
 
 #endif //ALGORITHMS_H
