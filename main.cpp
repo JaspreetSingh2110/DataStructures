@@ -396,6 +396,7 @@ void Test_TreesAlgorithms()
   Test_IsSumTree();
   Test_GetMaxSumUsingNonAdjacentNodes();
   Test_TransformBSTToMaxSumTree();
+  Test_TransformBSTToMaxHeap();
 }
 
 

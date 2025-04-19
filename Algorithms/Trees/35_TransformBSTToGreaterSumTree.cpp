@@ -81,7 +81,7 @@ void Test_TransformBSTToMaxSumTree()
   std::cout << "Tree before transformation: \n";
   PrintInOrder(root);
 
-  std::cout << "Tree after transformation: \n";
+  std::cout << "\nTree after transformation: \n";
   TransformBSTToMaxSumTree(root);
   PrintInOrder(root);
   std::cout << std::endl;

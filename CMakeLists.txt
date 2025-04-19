@@ -197,4 +197,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/33_IsSumTree.cpp
         Algorithms/Trees/34_FindMaxSumWithNonAdjacentNodes.cpp
         Algorithms/Trees/35_TransformBSTToGreaterSumTree.cpp
+        Algorithms/Trees/36_BSTreeToMaxHeap.cpp
 )

@@ -183,5 +183,6 @@ void Test_FindPairOfNodesWithTargetSum();
 void Test_IsSumTree();
 void Test_GetMaxSumUsingNonAdjacentNodes();
 void Test_TransformBSTToMaxSumTree();
+void Test_TransformBSTToMaxHeap();
 
 #endif //ALGORITHMS_H
