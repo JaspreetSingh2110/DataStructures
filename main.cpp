@@ -395,6 +395,7 @@ void Test_TreesAlgorithms()
   Test_FindPairOfNodesWithTargetSum();
   Test_IsSumTree();
   Test_GetMaxSumUsingNonAdjacentNodes();
+  Test_TransformBSTToMaxSumTree();
 }
 
 
@@ -408,7 +409,7 @@ void Test_Algorithms()
   //Test_LinkedListsAlgorithms();
   Test_TreesAlgorithms();
 
-  std::cout << "*******************************************" << std::endl;
+  std::cout << "\n*******************************************\n";
 }
 
 
