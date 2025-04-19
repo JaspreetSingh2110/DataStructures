@@ -394,6 +394,7 @@ void Test_TreesAlgorithms()
   Test_RemoveNodesOutsideRangeInBST();
   Test_FindPairOfNodesWithTargetSum();
   Test_IsSumTree();
+  Test_GetMaxSumUsingNonAdjacentNodes();
 }
 
 

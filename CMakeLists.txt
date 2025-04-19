@@ -195,4 +195,5 @@ add_executable(DataStructures main.cpp
         Algorithms/Trees/31_RemoveNodesOutsideRangeinBST.cpp
         Algorithms/Trees/32_MaxPairSumInBST.cpp
         Algorithms/Trees/33_IsSumTree.cpp
+        Algorithms/Trees/34_FindMaxSumWithNonAdjacentNodes.cpp
 )
